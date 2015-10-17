@@ -7450,7 +7450,7 @@ img.img-center {
   margin: auto;
 }
 #contact-site-form {
-  background: url("../images/footer-background.png") no-repeat;
+  background: url("../images/footer-background.png");
 }
 #contact-site-form .contact-element {
   margin: 10px 0;
@@ -7571,6 +7571,9 @@ img.img-center {
   #contact-site-form #edit-cid {
     max-width: 100%;
     float: left;
+  }
+  .contact-form .form-group .form-textarea-wrapper {
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
