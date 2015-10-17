@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the Superfish module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function bootstrap_carousel_blocks_uninstall() {
+  db_delete('variable')->condition('name', 'bootstrap_carousel_blocks%%', 'LIKE')->execute();
+  db_delete('block')->condition('module', 'bootstrap_carousel_blocks')->execute();
+}
+
+/**
+ * Implements hook_enable().
+ */
+function bootstrap_carousel_blocks_enable() {
+  drupal_set_message(check_plain('To use "Bootstrap Carousel Blocks" go to the administer blocks page and enable a Bootstrap Carousel block.'));
+}

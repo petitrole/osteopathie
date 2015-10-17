@@ -1,0 +1,154 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap carousel blocks module hooks.
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function bootstrap_carousel_blocks_menu() {
+  $items['admin/config/user-interface/bootstrap_carousel_blocks'] = array(
+    'title' => 'Bootstrap Carousel Blocks',
+    'description' => 'Configure Bootstrap Carousel Blocks',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('bootstrap_carousel_blocks_admin_settings'),
+    'access arguments' => array('administer Bootstrap Carousel Blocks'),
+    'file' => 'bootstrap_carousel_blocks.admin.inc',
+  );
+  return $items;
+}
+
+/**
+ * Implements hook_permission().
+ */
+function bootstrap_carousel_blocks_permission() {
+  return array(
+    'administer Bootstrap Carousel Blocks' => array(
+      'title' => t('Administer Bootstrap Carousel Blocks'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_help().
+ */
+function bootstrap_carousel_blocks_help($path, $arg) {
+  $output = '';
+  switch ($path) {
+//    case 'admin/modules#description':
+//      $output .= t('Bootstrap Carousel Blocks.');
+//      break;
+    case 'admin/config/user-interface/bootstrap_carousel_blocks':
+      $output .= t('<p>Block-specific Bootstrap Carousel Blocks settings could be found at !link</p>', array('!link' => l('admin/structure/block', 'admin/structure/block')));
+      break;
+  }
+  return $output;
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function bootstrap_carousel_blocks_block_info() {
+  $blocks = array();
+  $number = variable_get('bootstrap_carousel_blocks_number', 2);
+  for ($i = 1; $i <= $number; $i++) {
+    $blocks[$i] = array(
+      'info' => variable_get('bootstrap_carousel_blocks_name_' . $i, 'Bootstrap Carousel Blocks ' . $i) . ' (Bootstrap Carousel Blocks)',
+      'cache' => DRUPAL_NO_CACHE,
+    );
+  }
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_configure().
+ */
+function bootstrap_carousel_blocks_block_configure($delta = 0) {
+  $form = array();
+  $carousels_used = array();
+  // If unique carousels: a carousel can be assigned only to one block.
+  if (variable_get('bootstrap_carousel_blocks_unique_carousels', FALSE)) {
+    // Prevent the use of an allready used carousel.
+    $number = variable_get('bootstrap_carousel_blocks_number', 2);
+    for ($i = 1; $i <= $number; $i++) {
+      if ($i != $delta) {
+        $carousels_used[variable_get('bootstrap_carousel_blocks_carousel_' . $i, '')] = variable_get('bootstrap_carousel_blocks_carousel_' . $i, '');
+      }
+    }
+  }
+  $carousels = array(0 => t('- Choose -'));
+  // Retrieve all carousel nids.
+  $result = db_query("SELECT nid, title FROM {node} WHERE type = :type ORDER BY title", array(":type"=> 'bootstrap_carousel'));
+  foreach ($result as $data) {
+    if (!isset($carousels_used[$data->nid])) {
+      $carousels[$data->nid] = $data->title;
+    }
+  }
+
+  if (count($carousels) > 1) {
+    $form['bootstrap_carousel_blocks_name_' . $delta] = array(
+      '#type' => 'textfield',
+      '#title' => t('Block description'),
+      '#description' => t('A brief description of your block. Used on the !link', array('!link' => l(t('Blocks administration page'), 'admin/structure/block'))),
+      '#default_value' => variable_get('bootstrap_carousel_blocks_name_' . $delta, 'Bootstrap Carousel Blocks ' . $delta),
+    );
+    $form['bootstrap_carousel_blocks_carousel_' . $delta] = array(
+      '#type' => 'select',
+      '#title' => t('Choose a carousel'),
+      '#options' => $carousels,
+      '#description' => t('Choose the carousel to show in this block.'),
+      '#default_value' => variable_get('bootstrap_carousel_blocks_carousel_' . $delta, 0),
+    );
+  }
+  else {
+    if ($result === FALSE) {
+      $error = t('No carousels available.');
+    }
+    else {
+      $error = t('All available carousels are assigned to blocks due to the "Unique carousels" setting. See the !link',
+          array('!link' => l(t('Bootstrap Carousel Blocks settings page'), 'admin/config/user-interface/bootstrap_carousel_blocks')));
+    }
+    $form['information'] = array(
+      '#markup' => '<strong>' . t('Warning') . '</strong><br />' . $error,
+    );
+  }
+  return $form;
+}
+
+/**
+ * Implements hook_block_save().
+ */
+function bootstrap_carousel_blocks_block_save($delta = 0, $edit = array()) {
+  variable_set('bootstrap_carousel_blocks_name_' . $delta, $edit['bootstrap_carousel_blocks_name_' . $delta]);
+  variable_set('bootstrap_carousel_blocks_carousel_' . $delta, $edit['bootstrap_carousel_blocks_carousel_' . $delta]);
+  return;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function bootstrap_carousel_blocks_block_view($delta = 0) {
+  $block = array();
+  $block['subject'] = variable_get('bootstrap_carousel_blocks_name_' . $delta, 'Bootstrap Carousel Blocks ' . $delta);
+  $block['content'] = _bootstrap_carousel_blocks_content($delta);
+  return $block;
+}
+
+/**
+ * Create the carousel of the block.
+ *
+ * @return string
+ */
+function _bootstrap_carousel_blocks_content($delta) {
+  $nid = variable_get('bootstrap_carousel_blocks_carousel_' . $delta, 0);
+  $output = '';
+  if (!empty($nid)) {
+    $node = node_load($nid);
+    if (isset($node)) {
+      $output = node_view($node, 'full');
+    }
+  }
+  return $output;
+}

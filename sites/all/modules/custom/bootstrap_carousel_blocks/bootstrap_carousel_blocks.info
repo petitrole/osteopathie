@@ -1,0 +1,7 @@
+name = Bootstrap Carousel Blocks
+description = Creates blocks for the Bootstrap Carousel module
+package = media
+dependencies[] = bootstrap_carousel
+configure = admin/config/user-interface/bootstrap-carousel
+core = 7.x
+
