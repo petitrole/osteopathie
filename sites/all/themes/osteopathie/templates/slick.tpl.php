@@ -26,7 +26,7 @@
       $items = array();
 
       $items[] = array(
-        '#markup'  => '<span class="caption">test caption<img src="' . $base_url . '/sites/all/themes/osteopathie/images/carousel_images/consultation1.png"   /></span>',
+        '#markup'  => '<span class="caption"><img src="' . $base_url . '/sites/all/themes/osteopathie/images/carousel_images/consultation1.png"   /></span>',
         '#caption' => 'test caption',
       );
       $items[] = array(
