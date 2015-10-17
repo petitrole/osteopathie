@@ -7563,12 +7563,14 @@ img.img-center {
   #menunav {
     background: url('../images/menu-bg.png') repeat-y;
     background-size: 100%;
+    box-shadow: -1px 2px 7px 0px rgba(0, 1, 1, 0.75);
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   #menunav {
     background: url('../images/menu-bg.png') repeat-y;
-    background-size: 100%;
+    background-size: 101%;
+    box-shadow: -1px 2px 7px 0px rgba(0, 1, 1, 0.75);
   }
 }
 .navbar {
