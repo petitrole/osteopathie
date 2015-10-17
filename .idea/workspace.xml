@@ -43,8 +43,8 @@
       <file leaf-file-name="osteo_update.module" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/osteo_update/osteo_update.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47569954" vertical-offset="0" max-vertical-offset="679">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.10014728" vertical-offset="0" max-vertical-offset="679">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -966,8 +966,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/osteo_update/osteo_update.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47569954" vertical-offset="0" max-vertical-offset="679">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.10014728" vertical-offset="0" max-vertical-offset="679">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>

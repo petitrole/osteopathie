@@ -2,7 +2,7 @@
   /**
    * first update
    */
-  function osteo_update_update_7003(&$sandbox) {
+  function osteo_update_update_7001(&$sandbox) {
     //activation des modules par default
     module_disable(array('schema'));
     module_enable(array('devel',
