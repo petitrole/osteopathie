@@ -192,6 +192,12 @@
           <?php  $block = module_invoke('formblock', 'block_view', 'contact_site');
             print render($block['content']);
           ?>
+          <!--footer-->
+          <div id="info-footer" >
+          <?php  $block = module_invoke('block', 'block_view', '3');
+            print render($block['content']);
+          ?>
+          </div>
         </div>
       </div>
     </section>

@@ -7518,6 +7518,12 @@ img.img-center {
 #social-icon img:nth-child(n+2) {
   padding-left: 10px;
 }
+#info-footer {
+  color: #fff;
+  background-color: #362f2d;
+  padding: 3%;
+  margin-top: -25px;
+}
 @media screen and (max-width: 767px) {
   .top-mid-buffer {
     margin-top: 0px;
