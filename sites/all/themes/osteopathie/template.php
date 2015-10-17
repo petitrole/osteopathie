@@ -24,10 +24,10 @@
   }
 
   function osteopathie_preprocess_node(&$variables) {
-dsm($variables , 'node variables');
+//dsm($variables , 'node variables');
 	if($variables['field_image'][0]['filemime'] == 'image/jpeg' ) {
-	  dsm('jsdklfdslkfjlksdjfopsdl');
-	  dsm($variables['field_image'] , 'node field image');
+	 // dsm('jsdklfdslkfjlksdjfopsdl');
+	 // dsm($variables['field_image'] , 'node field image');
 	  $classes =  'class="img-responsive"';
 	  foreach (array('width', 'height', 'alt', 'title', 'class') as $key) {
 
@@ -40,7 +40,7 @@ dsm($variables , 'node variables');
 
   }
   function osteopathie_image($variables) {
-	dsm($variables , 'variable image');
+	//dsm($variables , 'variable image');
 	$attributes = $variables ['attributes'];
 	$attributes ['src'] = file_create_url($variables ['path']);
 	$classes =  'class="img-responsive"';
@@ -62,13 +62,13 @@ dsm($variables , 'node variables');
 	  $vars = $function($vars);
 	}
 	if($vars['element']['#fiel_name'] == 'field_image'){
-	  dsm($vars ,'preprocess field');
+	 // dsm($vars ,'preprocess field');
 	  $classes =  'class="img-responsive"';
 	}
-	dsm($vars ,'vars in preprocess field');
+	//dsm($vars ,'vars in preprocess field');
   }
   function osteopathie_field(&$variables, $hook) {
-	dsm ($variables , 'hook field');
+//	dsm ($variables , 'hook field');
 	$output = '';
 
 	// Render the label, if it's not hidden.
@@ -77,7 +77,7 @@ dsm($variables , 'node variables');
 	}
 	//field image
 	if(!$variables['element']['#object']->field_image['und'][0]['filemime'] == 'image/jpeg'  ){
-	  dsm('tatat');
+	//  dsm('tatat');
 	}
 
 	// Render the items.
