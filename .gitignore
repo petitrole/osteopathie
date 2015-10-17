@@ -9,3 +9,5 @@ sites/*/settings*.php
 .idea/*
 .project
 .idea
+.idea/workspace.xml
+.idea/
