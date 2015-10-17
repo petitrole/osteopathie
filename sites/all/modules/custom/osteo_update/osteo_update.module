@@ -3,14 +3,35 @@
    * first update
    */
   function osteo_update_update_7001(&$sandbox) {
+    //desactivation des modules par defaut
+    module_disable(array(
+        'overlay',
+        'toolbar'
+      )
+    );
     //activation des modules par default
-    module_disable(array('schema'));
-    module_enable(array('devel',
+    module_enable(array(
+        'schema',
+        'devel',
         'ds',
         'page_title',
         'pathauto',
         'uuid',
-        'views'
+        'views',
+        'admin_menu',
+        'ckeditor',
+        'imce',
+        'imce_filefield',
+        'jquery_plugin',
+        'jquery_update',
+        'libraries',
+        'link',
+        'pathauto',
+        'pathologic',
+        'transliteration',
+        'token',
+        'uuid',
+        'xmlsitemap'
       ));
     // Caches
     cache_clear_all();
