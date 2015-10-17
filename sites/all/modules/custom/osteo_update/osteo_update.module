@@ -2,36 +2,15 @@
   /**
    * first update
    */
-  function osteo_update_update_7002(&$sandbox) {
-    //desactivation des modules par defaut
-    module_disable(array(
-        'overlay',
-        'toolbar'
-      )
-    );
+  function osteo_update_update_7003(&$sandbox) {
     //activation des modules par default
-    module_enable(array(
-        'schema',
-        'devel',
+    module_disable(array('schema'));
+    module_enable(array('devel',
         'ds',
         'page_title',
         'pathauto',
         'uuid',
-        'views',
-        'admin_menu',
-        'ckeditor',
-        'imce',
-        'imce_filefield',
-        'jquery_plugin',
-        'jquery_update',
-        'libraries',
-        'link',
-        'pathauto',
-        'pathologic',
-        'transliteration',
-        'token',
-        'uuid',
-        'xmlsitemap'
+        'views'
       ));
     // Caches
     cache_clear_all();
