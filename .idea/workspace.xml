@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4e6b1c0-1b55-485f-bb16-a7054b46a14b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/header.less" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/header.less" />
     </list>
     <ignored path="osteopathie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/header.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.076923" vertical-offset="392" max-vertical-offset="1071">
-              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.7759146" vertical-offset="137" max-vertical-offset="1071">
+              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -122,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4146341" vertical-offset="2149" max-vertical-offset="3689">
+            <state vertical-scroll-proportion="-35.692307" vertical-offset="2149" max-vertical-offset="3689">
               <caret line="181" column="14" selection-start-line="181" selection-start-column="14" selection-end-line="181" selection-end-column="14" />
               <folding>
                 <element signature="e#8#3457#0#PHP" expanded="true" />
@@ -178,7 +178,6 @@
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--bootstrap_carousel.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/less/variables.less" />
-        <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/less/header.less" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/less/content.less" />
         <option value="$PROJECT_DIR$/sites/all/modules/contrib/slideshow_creator/slideshow_creator.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/views-view-unformatted--ticker.tpl.php" />
@@ -195,6 +194,7 @@
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/less/responsive.less" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/slick.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/less/header.less" />
       </list>
     </option>
   </component>
@@ -960,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.076923" vertical-offset="392" max-vertical-offset="1071">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/navbar.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.4629629" vertical-offset="680" max-vertical-offset="11509">
@@ -1012,11 +1004,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4146341" vertical-offset="2149" max-vertical-offset="3689">
+        <state vertical-scroll-proportion="-35.692307" vertical-offset="2149" max-vertical-offset="3689">
           <caret line="181" column="14" selection-start-line="181" selection-start-column="14" selection-end-line="181" selection-end-column="14" />
           <folding>
             <element signature="e#8#3457#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7759146" vertical-offset="137" max-vertical-offset="1071">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
