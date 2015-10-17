@@ -6,5 +6,6 @@ sites/*/settings*.php
 #sites/*/private
 
 #ide
-.idea
+.idea/*
 .project
+.idea

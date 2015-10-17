@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4e6b1c0-1b55-485f-bb16-a7054b46a14b" name="Default" comment="" />
+    <list default="true" id="e4e6b1c0-1b55-485f-bb16-a7054b46a14b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="osteopathie.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -51,7 +54,7 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6538463" vertical-offset="1698" max-vertical-offset="2244">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1698" max-vertical-offset="2244">
               <caret line="179" column="81" selection-start-line="179" selection-start-column="81" selection-end-line="179" selection-end-column="81" />
               <folding />
             </state>
@@ -71,7 +74,7 @@
       <file leaf-file-name="osteo_update.module" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/osteo_update/osteo_update.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="425">
+            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="425">
               <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
               <folding />
             </state>
@@ -81,7 +84,7 @@
       <file leaf-file-name="bootstrap-12--node-article.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/bootstrap-12--node-article.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.1923075" vertical-offset="43" max-vertical-offset="459">
+            <state vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="459">
               <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding />
             </state>
@@ -91,7 +94,7 @@
       <file leaf-file-name="node--article.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--article.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6538463" vertical-offset="295" max-vertical-offset="918">
+            <state vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="918">
               <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
               <folding />
             </state>
@@ -101,7 +104,7 @@
       <file leaf-file-name="slick.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/slick.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.1538463" vertical-offset="631" max-vertical-offset="1275">
+            <state vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1275">
               <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding>
                 <element signature="e#8#811#0#PHP" expanded="true" />
@@ -113,8 +116,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.12463343" vertical-offset="0" max-vertical-offset="682">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -191,6 +194,7 @@
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--article.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/slick.tpl.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -230,7 +234,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -517,6 +520,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -557,15 +561,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="d9cfc840-e0ee-4fe1-8723-b295413e43cb" server_name="osteo">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="d9cfc840-e0ee-4fe1-8723-b295413e43cb" server_name="osteo">
       <method />
     </configuration>
     <list size="1">
@@ -592,12 +596,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="842" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32742155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -608,11 +611,12 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32742155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32469305" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32469305" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985657" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -962,7 +966,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/osteo_update/osteo_update.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="425">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="425">
           <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
           <folding />
         </state>
@@ -970,7 +974,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/bootstrap-12--node-article.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.1923075" vertical-offset="43" max-vertical-offset="459">
+        <state vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="459">
           <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding />
         </state>
@@ -978,7 +982,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--article.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6538463" vertical-offset="295" max-vertical-offset="918">
+        <state vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="918">
           <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
           <folding />
         </state>
@@ -986,7 +990,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6538463" vertical-offset="1698" max-vertical-offset="2244">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1698" max-vertical-offset="2244">
           <caret line="179" column="81" selection-start-line="179" selection-start-column="81" selection-end-line="179" selection-end-column="81" />
           <folding />
         </state>
@@ -994,7 +998,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/slick.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1538463" vertical-offset="631" max-vertical-offset="1275">
+        <state vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1275">
           <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding>
             <element signature="e#8#811#0#PHP" expanded="true" />
@@ -1004,8 +1008,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.12463343" vertical-offset="0" max-vertical-offset="682">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>
