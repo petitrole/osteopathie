@@ -7535,6 +7535,22 @@ img.img-center {
   #menunav {
     background: #fff;
   }
+  #menunav .navbar-nav a,
+  #menunav a,
+  #menunav a:focus,
+  #menunav a:hover,
+  #menunav a:active {
+    color: #23b7eb;
+    background-color: #e7e7e7;
+    text-decoration: none;
+    text-shadow: 0 1px #eee;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    padding: 0.9em 0 0.9em 10px;
+  }
+  #menunav ul.language-switcher-locale-url li a {
+    background: transparent;
+  }
 }
 @media screen and (min-width: 1200px) {
   #menunav {

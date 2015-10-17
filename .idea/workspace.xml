@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4e6b1c0-1b55-485f-bb16-a7054b46a14b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/navbar.less" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page--front.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page--front.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/responsive.less" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/responsive.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="osteopathie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +55,8 @@
       <file leaf-file-name="responsive.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/responsive.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7260677" vertical-offset="0" max-vertical-offset="679">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.52430046" vertical-offset="205" max-vertical-offset="952">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -1017,8 +1016,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/responsive.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7260677" vertical-offset="0" max-vertical-offset="679">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.52430046" vertical-offset="205" max-vertical-offset="952">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding />
         </state>
       </provider>
