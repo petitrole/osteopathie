@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4e6b1c0-1b55-485f-bb16-a7054b46a14b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/osteo_update/osteo_update.module" afterPath="$PROJECT_DIR$/sites/all/modules/custom/osteo_update/osteo_update.module" />
-    </list>
+    <list default="true" id="e4e6b1c0-1b55-485f-bb16-a7054b46a14b" name="Default" comment="" />
     <ignored path="osteopathie.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -40,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="osteo_update.module" pinned="false" current-in-tab="true">
+      <file leaf-file-name="osteo_update.module" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/osteo_update/osteo_update.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10014728" vertical-offset="0" max-vertical-offset="679">
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="425">
               <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding />
             </state>
@@ -88,6 +86,16 @@
               <folding>
                 <element signature="e#8#3457#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.04822695" vertical-offset="0" max-vertical-offset="705">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -948,14 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14468086" vertical-offset="0" max-vertical-offset="705">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--article.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.8076925" vertical-offset="239" max-vertical-offset="918">
@@ -966,8 +966,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/osteo_update/osteo_update.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10014728" vertical-offset="0" max-vertical-offset="679">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="425">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04822695" vertical-offset="0" max-vertical-offset="705">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
