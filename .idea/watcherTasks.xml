@@ -22,9 +22,9 @@
       <option name="outputFromStdout" value="true" />
       <option name="passParentEnvs" value="true" />
       <option name="program" value="$USER_HOME$/AppData/Roaming/npm/lessc.cmd" />
-      <option name="scopeName" value="Project Files" />
+      <option name="scopeName" value="less" />
       <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$FileDir$" />
+      <option name="workingDir" value="" />
       <envs />
     </TaskOptions>
   </component>

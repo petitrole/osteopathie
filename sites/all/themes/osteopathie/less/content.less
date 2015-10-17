@@ -1,17 +1,107 @@
 // Insert your styling here.
 
 //classes generales
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.middle-titre{
+  font-family: @font-family-site-name;
+  font-weight: 700;
+  text-align: left;
+  font-size: @font-size-big;
+}
+.ss-titre{
+  font-family: AvenirNextCondensed;
+  font-weight: 200;
+  text-align: left;
+}
 img.img-center { margin-right : auto; margin-left : auto;display: block;padding:10px;}
-//bloc header
-img.header-bg {position: absolute; z-index :-10;}
+//margin et padding
+.top-buffer { margin-top:40px;}
+.top-mid-buffer{margin-top: 25px;}
 
-.site-info {
+//carousel
+.carousel {
+width:50%;
+  .item {
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    img{width:100%; height:auto; margin: auto;}
+  }
+}
 
+//contact form
+#contact-site-form{
+  background:url("./../images/footer-background.png") no-repeat;
+  .contact-element {
+    margin: 10px 0;
+    .form-group {
+      text-align: right;
+      label {
+        vertical-align: top;
+        padding-right: 15px;
+      }
+    }
+  }
+  textarea{
+    box-shadow: -1px 2px 7px 0px rgba(0, 1, 1, 0.75);
+    background-color: @brown;}
 }
 
 
-//info societe
-.block-logo {background-image:url("/sites/all/themes/osteopathie/images/bloc-logo.png");
-background-repeat : no-repeat;}
-.txt-info {padding:20px;
-  display: inline-block;}
+.contact-element label {
+  max-width: 30%;
+  display: inline-block;
+  margin: 0;
+  color: @font-blue;
+  font-weight: bolder;
+  font-size: @font-size-x-large;
+  font-family: @font-family-site-name;
+}
+#contact-site-form input, #contact-site-form #edit-name, #contact-site-form #edit-prenom, #contact-site-form #edit-mail, #contact-site-form #edit-cid {
+  max-width: 70%;
+  display: inline-block;
+  float: right;
+  box-shadow: -1px 2px 7px 0px rgba(0, 1, 1, 0.75);
+  background-color: @brown;
+}
+#contact-site-form .span-error-vide {
+  background-color: #457B87;
+  border: 0;
+  display: none;
+  width: auto;
+}
+.contact-form .span-error{
+  color: red;
+  font-weight: bold;
+}
+.contact-form .form-group .form-textarea-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+}
+
+.contact-form .form-submit {
+  clear: right;
+  float: right;
+  margin-bottom: 47px;
+  font-weight: bold;
+  font-size: 1.286em;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: -1px 2px 7px 0px rgba(0, 1, 1, 0.75);
+  background-color: @brown;
+  width: 149px;
+  color: @font-blue;
+}
+
+#social-icon{
+  img:nth-child(n+2){padding-left: 10px;}
+}

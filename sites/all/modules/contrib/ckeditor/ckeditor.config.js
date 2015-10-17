@@ -28,6 +28,7 @@ CKEDITOR.editorConfig = function(config) {
   // config.protectedSource.push(/<code>[\s\S]*?<\/code>/gi);
   config.extraPlugins = '';
 
+
   /*
     * Append here extra CSS rules that should be applied into the editing area.
     * Example:

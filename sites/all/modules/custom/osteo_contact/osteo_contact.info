@@ -1,0 +1,4 @@
+name = OSTEO Contact
+description = OSTEO - Customisation du formulaire de contact
+core = 7.x
+package = OSTEO

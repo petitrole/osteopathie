@@ -1,0 +1,20 @@
+<?php
+  /**
+   * first update
+   */
+  function osteo_update_update_7001(&$sandbox) {
+    //activation des modules par default
+    module_disable(array('schema'));
+    module_enable(array('devel',
+        'ds',
+        'page_title',
+        'pathauto',
+        'uuid',
+        'views'
+      ));
+    // Caches
+    cache_clear_all();
+    return t('Mise à jour OK.');
+    // In case of an error, simply throw an exception with an error message.
+    throw new DrupalUpdateException('Erreur survenue.');
+  }

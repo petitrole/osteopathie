@@ -74,115 +74,126 @@
    */
   global $base_url;
 ?>
-<header id="navbar" role="banner" class="<?php  print $navbar_classes; ?>">
-  <div class="container">
-	<div class="header-bg col-xs-12">
-	  <img src="/sites/all/themes/osteopathie/images/header-bg-sql.png" class="img-responsive header-bg" alt="header image"/>
-	<div class="navbar-header">
-	  <?php if ($logo): ?>
-		<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-		  <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
-		</a>
-	  <?php endif; ?>
-
-
-	  <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-	</div>
-
-	<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-	  <div class="navbar-collapse collapse">
-		<nav role="navigation">
-		  <?php if (!empty($primary_nav)): ?>
-			<?php print render($primary_nav); ?>
-		  <?php endif; ?>
-		  <?php if (!empty($secondary_nav)): ?>
-			<?php print render($secondary_nav); ?>
-		  <?php endif; ?>
-		  <?php if (!empty($page['navigation'])): ?>
-			<?php print render($page['navigation']); ?>
-		  <?php endif; ?>
-		</nav>
-	  </div>
-	<?php endif; ?>
+<!-- navigation panel -->
+<header id="header" role='banner' class="container">
+  <div class="row">
+    <div class="col-auto ">
+      <img src="<?php print $base_url . '/sites/all/themes/osteopathie/images/header_blue.png '; ?>" class="img-responsive header-bg" alt="header image"/>
+    </div>
   </div>
-  </div>
-  <!--  --><?php //if (!empty($site_name)): ?>
-  <!--    <a class="name navbar-brand" href="-->
-  <?php //print $front_page; ?><!--" title="-->
-  <?php //print t('Home'); ?><!--">--><?php ////print $site_name; ?><!---->
-  <?php //print 'Ostéopathe';?><!--</a>-->
-  <!--  --><?php //endif; ?>
 </header>
 
-<div class="main-container container">
+<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
+  <div class="row top-mid-buffer">
+    <div class="navbar-header">
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Utiliser la navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
 
-  <header role="banner" id="page-header">
-	<div class="container">
+    <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+      <div class="navbar-collapse collapse">
+        <nav role="navigation">
+          <?php if (!empty($primary_nav)): ?>
+            <?php print render($primary_nav); ?>
+          <?php endif; ?>
+          <?php if (!empty($secondary_nav)): ?>
+            <?php //print render($secondary_nav); ?>
+          <?php endif; ?>
+          <?php if (!empty($page['navigation'])): ?>
+            <?php print render($page['navigation']); ?>
+          <?php endif; ?>
+          <!--langague icones-->
+          <div id="block-locale-language" class="block block-locale langue-icones">
+          <?php
+            $block = module_invoke('locale', 'block_view', 'language');
+            print $block['content'];
+          ?>
+          </div>
+        </nav>
+      </div>
+    <?php endif; ?>
+  </div>
+  <!-- /row header-->
+  <div class="row ">
+    <div class="col-md-8">
+      <div id="site-name">
+        <?php if (!empty($site_name)): ?>
+          <h1 id="site-name">
+            <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+          </h1>
+        <?php endif; ?>
+      </div>
 
-	  <div class="site-info  col-xs-12  header ">
-		<?php   $block = module_invoke('block', 'block_view', '2');
-		  print render($block['content']); ?>
-
-		<!--    --><?php //if (!empty($site_slogan)): ?>
-		<!--      <p class="lead">--><?php //print $site_slogan; ?><!--</p>-->
-		<!--    --><?php //endif; ?>
-
-		<?php print render($page['header']);
+        <?php if (!empty($site_slogan)): ?>
+          <div id="site-slogan" class="col-md-12">
+            <?php print $site_slogan; ?>
+          </div>
+        <?php endif; ?>
 
 
-
-		?>
-	  </div>
-	</div>
-  </header>
-  <!-- /#page-header -->
-
-  <div class="row">
-
-	<?php if (!empty($page['sidebar_first'])): ?>
-	  <aside class="col-sm-3" role="complementary">
-		<?php print render($page['sidebar_first']); ?>
-	  </aside>  <!-- /#sidebar-first -->
-	<?php endif; ?>
-
-	<section<?php print $content_column_class; ?> class="col-sm-6">
-	  <?php if (!empty($page['highlighted'])): ?>
-		<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
-	  <?php endif; ?>
-	  <?php if (!empty($breadcrumb)): print $breadcrumb; endif; ?>
-	  <a id="main-content"></a>
-	  <?php print render($title_prefix); ?>
-	  <?php if (!empty($title)): ?>
-		<h1 class="page-header"><?php print $title; ?></h1>
-	  <?php endif; ?>
-	  <?php print render($title_suffix); ?>
-	  <?php print $messages; ?>
-	  <?php if (!empty($tabs)): ?>
-		<?php print render($tabs); ?>
-	  <?php endif; ?>
-	  <?php if (!empty($page['help'])): ?>
-		<?php print render($page['help']); ?>
-	  <?php endif; ?>
-	  <?php if (!empty($action_links)): ?>
-		<ul class="action-links"><?php print render($action_links); ?></ul>
-	  <?php endif; ?>
-	  <?php print render($page['content']); ?>
-	</section>
-
-	<?php if (!empty($page['sidebar_second'])): ?>
-	  <aside class="col-sm-3" role="complementary">
-		<?php print render($page['sidebar_second']); ?>
-	  </aside>  <!-- /#sidebar-second -->
-	<?php endif; ?>
+    </div>
+    <div class="site-info pull-right ">
+      <?php   $block = module_invoke('block', 'block_view', '1');
+        print render($block['content']); ?>
+    </div>
 
   </div>
+  <?php print render($page['header']); ?>
+  <?php if (!empty($breadcrumb)): print $breadcrumb;endif; ?>
+</header>
+
+
+<div id="page" class="clearfix <?php print $classes; ?>"<?php print $attributes; ?>>
+  <main id="main" class="container" role="main">
+    <div class="row relative">
+
+      <section<?php print $content_column_class; ?>>
+        <?php if (!empty($page['highlighted'])): ?>
+          <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
+        <?php endif; ?>
+        <a id="main-content"></a>
+        <?php print render($title_prefix); ?>
+        <?php if (!empty($title)): ?>
+          <h1 class="page-header hidden"><?php print $title; ?></h1>
+        <?php endif; ?>
+        <?php print render($title_suffix); ?>
+        <?php print $messages; ?>
+        <?php if (!empty($tabs)): ?>
+          <?php print render($tabs); ?>
+        <?php endif; ?>
+        <?php if (!empty($page['help'])): ?>
+          <?php print render($page['help']); ?>
+        <?php endif; ?>
+        <?php if (!empty($action_links)): ?>
+          <ul class="action-links"><?php print render($action_links); ?></ul>
+        <?php endif; ?>
+        <?php print render($page['content']);
+        ?>
+
+        <!--contact-->
+
+        <?php  $block = module_invoke('formblock', 'block_view', 'contact_site');
+          dsm($block);
+          print render($block['content']);
+        ?>
+
+
+      </section>
+    </div>
+  </main>
 </div>
+
 <footer class="footer container">
   <?php print render($page['footer']); ?>
 </footer>
+
+
+
+
+
+

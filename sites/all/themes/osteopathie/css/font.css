@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Avenir_Next_LT_Pro_Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir_Next_LT_Pro_Ultra_Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/AvenirNextLTPro-UltLtCn.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir_Next_LT_Pro_Ultra_Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/AvenirNextLTPro-UltLtCn.woff') format('woff');
+}
+@font-face {
+    font-family: 'Din_Condensed_Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/DINCondensedBold.ttf') format('ttf');
+}

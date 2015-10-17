@@ -802,7 +802,7 @@ function rdf_preprocess_image(&$variables) {
  *   - context: An array of context information about the content to be wrapped:
  *     - hook: The theme hook that will use the wrapped content. This
  *       corresponds to the key within the theme registry for this template.
- *       For example, if this content is about to be used in node.tpl.php or
+ *       For example, if this content is about to be used in page--node--article.tpl.php or
  *       node-[type].tpl.php, then the 'hook' is 'node'.
  *     - variable_name: The name of the variable by which the template will
  *       refer to this content. Each template file has documentation about

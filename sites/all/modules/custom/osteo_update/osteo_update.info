@@ -1,0 +1,4 @@
+name = OSTEO Update module
+description = OSTEO sites updates
+core = 7.x
+package = OSTEO
