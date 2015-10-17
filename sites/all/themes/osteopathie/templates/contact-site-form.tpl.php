@@ -31,7 +31,7 @@
       <?php print drupal_render($form['name']); ?>
     </div>
     <?php if (isset($errors['name'])): ?>
-      <div class='col-xs-8 col-sm-4 contact-error'>
+      <div class='col-xs-12 col-sm-4 contact-error'>
         <span class='form-control span-error' id="error-name"><?php print $errors['name']; ?></span>
       </div>
     <?php endif; ?>
@@ -54,7 +54,7 @@
       <?php print drupal_render($form['mail']); ?>
     </div>
     <?php if (isset($errors['mail'])): ?>
-      <div class='col-xs-8 col-sm-4 col-md-8 contact-error'>
+      <div class='col-xs-12 col-sm-4 col-md-8 contact-error'>
         <span class='form-control span-error' id="error-mail"><?php print $errors['mail']; ?></span>
       </div>
     <?php else : ?>
@@ -71,7 +71,7 @@
       <?php print drupal_render($form['message']); ?>
     </div>
     <?php if (isset($errors['message'])): ?>
-      <div class='col-xs-8 col-sm-4 col-md-8 contact-error'>
+      <div class='col-xs-12 col-sm-4 col-md-8 contact-error'>
         <span class='form-control span-error' id="error-message"><?php print $errors['message']; ?></span>
       </div>
     <?php endif; ?>
