@@ -97,26 +97,26 @@
 
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
       <div id="menunav">
-      <div class="navbar-collapse collapse">
-        <nav role="navigation">
-          <?php if (!empty($primary_nav)): ?>
-            <?php print render($primary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($secondary_nav)): ?>
-            <?php //print render($secondary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($page['navigation'])): ?>
-            <?php print render($page['navigation']); ?>
-          <?php endif; ?>
-          <!--langague icones-->
-          <div id="block-locale-language" class="block block-locale langue-icones">
-            <?php
-              $block = module_invoke('locale', 'block_view', 'language');
-              print $block['content'];
-            ?>
-          </div>
-        </nav>
-      </div>
+        <div class="navbar-collapse collapse">
+          <nav role="navigation">
+            <?php if (!empty($primary_nav)): ?>
+              <?php print render($primary_nav); ?>
+            <?php endif; ?>
+            <?php if (!empty($secondary_nav)): ?>
+              <?php //print render($secondary_nav); ?>
+            <?php endif; ?>
+            <?php if (!empty($page['navigation'])): ?>
+              <?php print render($page['navigation']); ?>
+            <?php endif; ?>
+            <!--langague icones-->
+            <div id="block-locale-language" class="block block-locale langue-icones">
+              <?php
+                $block = module_invoke('locale', 'block_view', 'language');
+                print $block['content'];
+              ?>
+            </div>
+          </nav>
+        </div>
       </div>
     <?php endif; ?>
   </div>
@@ -130,11 +130,11 @@
           </h1>
         <?php endif; ?>
       </div>
-        <?php if (!empty($site_slogan)): ?>
-          <div id="site-slogan" class="col-sm-4 col-md-9">
-            <?php print $site_slogan; ?>
-          </div>
-        <?php endif; ?>
+      <?php if (!empty($site_slogan)): ?>
+        <div id="site-slogan" class="col-sm-4 col-md-9">
+          <?php print $site_slogan; ?>
+        </div>
+      <?php endif; ?>
 
     </div>
     <div class="site-info pull-right">
@@ -145,7 +145,7 @@
   <?php print render($page['header']); ?>
   <?php if (!empty($breadcrumb)): print $breadcrumb;
   else:
-    print '<ol class="breadcrumb"> <a   href=" '. $base_url .' ">Accueil</a></ol>';
+    print '<ol class="breadcrumb"> <a   href=" ' . $base_url . ' ">Accueil</a></ol>';
 
   endif; ?>
 </header>
@@ -155,49 +155,56 @@
   <main id="main" class="main-wrapper" role="main">
 
 
-      <section<?php print $content_column_class; ?>>
-        <div class="container">
-          <div class="row top-buffer">
-        <?php if (!empty($page['highlighted'])): ?>
-          <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
-        <?php endif; ?>
+    <section<?php print $content_column_class; ?>>
+      <div class="container">
+        <div class="row top-buffer">
+          <?php if (!empty($page['highlighted'])): ?>
+            <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
+          <?php endif; ?>
 
-        <a id="main-content"></a>
-        <?php print render($title_prefix); ?>
-        <?php if (!empty($title)): ?>
-          <h1 class="page-header hidden"><?php print $title; ?></h1>
-        <?php endif; ?>
-        <?php print render($title_suffix); ?>
-        <?php print $messages; ?>
-        <?php if (!empty($tabs)): ?>
-          <?php print render($tabs); ?>
-        <?php endif; ?>
-        <?php if (!empty($page['help'])): ?>
-          <?php print render($page['help']); ?>
-        <?php endif; ?>
-        <?php if (!empty($action_links)): ?>
-          <ul class="action-links"><?php print render($action_links); ?></ul>
-        <?php endif; ?>
-        <?php print render($page['content']); ?>
-          </div>
-          </div>
-        </section>
+          <a id="main-content"></a>
+          <?php print render($title_prefix); ?>
+          <?php if (!empty($title)): ?>
+            <h1 class="page-header hidden"><?php print $title; ?></h1>
+          <?php endif; ?>
+          <?php print render($title_suffix); ?>
+          <?php print $messages; ?>
+          <?php if (!empty($tabs)): ?>
+            <?php print render($tabs); ?>
+          <?php endif; ?>
+          <?php if (!empty($page['help'])): ?>
+            <?php print render($page['help']); ?>
+          <?php endif; ?>
+          <?php if (!empty($action_links)): ?>
+            <ul class="action-links"><?php print render($action_links); ?></ul>
+          <?php endif; ?>
+          <?php print render($page['content']); ?>
+        </div>
+      </div>
+    </section>
 
-      <!--block caroussel-->
-      <section<?php print $content_column_class; ?>>
-        <div class="container">
-          <div class="row top-buffer ">
-<!--        --><?php //  $block = module_invoke('bootstrap_carousel_blocks', 'block_view', '1');
-//          print render($block['content']); ?>
-            <?php   $block = module_invoke('views', 'block_view', 'ticker-block');
-                        print render($block['content']); ?>
-            <!--contact-->
+    <!--block caroussel-->
+    <section<?php print $content_column_class; ?>>
+      <div class="container">
+        <div class="row top-buffer ">
+          <!--        --><?php //  $block = module_invoke('bootstrap_carousel_blocks', 'block_view', '1');
+            //          print render($block['content']);
+          ?>
+          <?php   $block = module_invoke('views', 'block_view', 'ticker-block');
+            print render($block['content']); ?>
+          <!--contact-->
           <?php  $block = module_invoke('formblock', 'block_view', 'contact_site');
             print render($block['content']);
           ?>
+          <!--footer-->
+          <div id="info-footer">
+            <?php  $block = module_invoke('block', 'block_view', '3');
+              print render($block['content']);
+            ?>
           </div>
-          </div>
-      </section>
+        </div>
+      </div>
+    </section>
 
   </main>
 </div>
