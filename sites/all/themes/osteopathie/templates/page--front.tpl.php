@@ -96,7 +96,7 @@
     </div>
 
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-      <div class="navbar-collapse collapse">
+      <div class="navbar-collapse collapse menunav">
         <nav role="navigation">
           <?php if (!empty($primary_nav)): ?>
             <?php print render($primary_nav); ?>
@@ -120,7 +120,7 @@
   </div>
   <!-- /row header-->
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-sm-3 col-md-8">
       <div id="site-name">
         <?php if (!empty($site_name)): ?>
           <h1 id="site-name">
@@ -129,7 +129,7 @@
         <?php endif; ?>
       </div>
         <?php if (!empty($site_slogan)): ?>
-          <div id="site-slogan" class="col-md-9">
+          <div id="site-slogan" class="col-sm-4 col-md-9">
             <?php print $site_slogan; ?>
           </div>
         <?php endif; ?>
