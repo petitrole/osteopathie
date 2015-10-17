@@ -45,11 +45,9 @@
         '#markup'  => '<img src="' . $base_url . '/sites/all/themes/osteopathie/images/carousel_images/osteopathie3.png" />',
         '#caption' => 'test caption',
       );
-      dsm($items, 'items');
+
 
       foreach ($items as $delta => $item):
-        dsm($item, 'item');
-
         //print render($item['#markup'])  .' '. ( $item['#caption']);
         print render($item);
         ?>

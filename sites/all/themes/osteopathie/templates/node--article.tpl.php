@@ -101,7 +101,6 @@
       hide($content['comments']);
       hide($content['links']);
       print render($content);
-      dsm($content,'content in node article');
     ?>
   </div>
 

@@ -178,7 +178,6 @@
         <!--contact-->
 
         <?php  $block = module_invoke('formblock', 'block_view', 'contact_site');
-          dsm($block);
           print render($block['content']);
         ?>
 

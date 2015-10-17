@@ -2,270 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4e6b1c0-1b55-485f-bb16-a7054b46a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/block_block_view.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/bootstrap-12--node-article.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/ckeditor.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/css/font.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/html.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--article.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--bootstrap_carousel.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/osteo_contact/osteo_contact.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/osteo_contact/osteo_contact.module" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/osteo_update/osteo_update.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/custom/osteo_update/osteo_update.module" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page--contact.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page--front.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page--front_1.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/slick.tpl.php" />
-      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\.idea\deployment.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\profiles\standard\translations\fr.po" afterPath="" />
-      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\sites\all\modules\contrib\pathauto\API.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\sites\all\modules\contrib\uuid\uuid_services\resources\field_collection.resource.inc" afterPath="" />
-      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\sites\all\themes\osteopathie\less\content.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\sites\all\themes\osteopathie\templates\search-block-form.tpl.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.txt" afterPath="$PROJECT_DIR$/CHANGELOG.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/README.txt" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/aaa_update_test.info" afterPath="$PROJECT_DIR$/modules/update/tests/aaa_update_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/actions_loop_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/actions_loop_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/aggregator.info" afterPath="$PROJECT_DIR$/modules/aggregator/aggregator.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/aggregator/tests/aggregator_test.info" afterPath="$PROJECT_DIR$/modules/aggregator/tests/aggregator_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/ajax.inc" afterPath="$PROJECT_DIR$/includes/ajax.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/ajax.js" afterPath="$PROJECT_DIR$/misc/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/ajax_forms_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/ajax_forms_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/ajax_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/ajax_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/autocomplete.js" afterPath="$PROJECT_DIR$/misc/autocomplete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bartik/bartik.info" afterPath="$PROJECT_DIR$/themes/bartik/bartik.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/batch_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/batch_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/bbb_update_test.info" afterPath="$PROJECT_DIR$/modules/update/tests/bbb_update_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/block.info" afterPath="$PROJECT_DIR$/modules/block/block.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/tests/block_test.info" afterPath="$PROJECT_DIR$/modules/block/tests/block_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/block/tests/themes/block_test_theme/block_test_theme.info" afterPath="$PROJECT_DIR$/modules/block/tests/themes/block_test_theme/block_test_theme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/blog/blog.info" afterPath="$PROJECT_DIR$/modules/blog/blog.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/book/book.info" afterPath="$PROJECT_DIR$/modules/book/book.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/bootstrap.inc" afterPath="$PROJECT_DIR$/includes/bootstrap.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/bulk_export/bulk_export.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/bulk_export/bulk_export.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/ccc_update_test.info" afterPath="$PROJECT_DIR$/modules/update/tests/ccc_update_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ckeditor/ckeditor.config.js" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ckeditor/ckeditor.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/color/color.info" afterPath="$PROJECT_DIR$/modules/color/color.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment/comment.info" afterPath="$PROJECT_DIR$/modules/comment/comment.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/common.inc" afterPath="$PROJECT_DIR$/includes/common.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/common_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/common_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/common_test_cron_helper.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/common_test_cron_helper.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contact/contact.info" afterPath="$PROJECT_DIR$/modules/contact/contact.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/content.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/content.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/content.less" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/content.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/context-admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/context-admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/context.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/context.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/contextual/contextual.info" afterPath="$PROJECT_DIR$/modules/contextual/contextual.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/tests/cron_queue_test.info" afterPath="$PROJECT_DIR$/modules/system/tests/cron_queue_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/css.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/css.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/tests/plugins/cached/ctoolsCachedPluginArray.class.php" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/tests/plugins/cached/ctoolsCachedPluginArray.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/tests/plugins/cached/ctoolsCachedPluginArray2.class.php" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/tests/plugins/cached/ctoolsCachedPluginArray2.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/tests/plugins/not_cached/ctoolsNotCachedPluginArray.class.php" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/tests/plugins/not_cached/ctoolsNotCachedPluginArray.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools_access_ruleset/ctools_access_ruleset.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools_access_ruleset/ctools_access_ruleset.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools_ajax_sample/ctools_ajax_sample.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools_ajax_sample/ctools_ajax_sample.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools_ajax_sample/ctools_ajax_sample.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools_ajax_sample/ctools_ajax_sample.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools_custom_content/ctools_custom_content.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools_custom_content/ctools_custom_content.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/tests/ctools_export_test/ctools_export_test.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/tests/ctools_export_test/ctools_export_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/export_ui/ctools_export_ui.class.php" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/export_ui/ctools_export_ui.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools_plugin_example/ctools_plugin_example.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/ctools_plugin_example/ctools_plugin_example.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/tests/ctools_plugin_test.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/tests/ctools_plugin_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dashboard/dashboard.info" afterPath="$PROJECT_DIR$/modules/dashboard/dashboard.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/database/database.inc" afterPath="$PROJECT_DIR$/includes/database/database.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/database_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/database_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/database_test.test" afterPath="$PROJECT_DIR$/modules/simpletest/tests/database_test.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/dblog/dblog.info" afterPath="$PROJECT_DIR$/modules/dblog/dblog.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/drupal.js" afterPath="$PROJECT_DIR$/misc/drupal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/drupal_autoload_test/drupal_autoload_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/drupal_autoload_test/drupal_autoload_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info" afterPath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_compatible_test/drupal_system_listing_compatible_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info" afterPath="$PROJECT_DIR$/profiles/testing/modules/drupal_system_listing_incompatible_test/drupal_system_listing_incompatible_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/drupal_web_test_case.php" afterPath="$PROJECT_DIR$/modules/simpletest/drupal_web_test_case.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/ds.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/ds.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/includes/ds.displays.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/includes/ds.displays.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/ds.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/ds.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/ds.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/ds.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_devel/ds_devel.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_devel/ds_devel.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/tests/ds_exportables_test/ds_exportables_test.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/tests/ds_exportables_test/ds_exportables_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_extras/includes/ds_extras.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_extras/includes/ds_extras.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_extras/ds_extras.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_extras/ds_extras.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_extras/ds_extras.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_extras/ds_extras.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_extras/includes/ds_extras.pages.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_extras/includes/ds_extras.pages.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_format/ds_format.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_format/ds_format.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_forms/ds_forms.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_forms/ds_forms.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_search/ds_search.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_search/ds_search.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_search/ds_search.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_search/ds_search.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/tests/ds_test.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/tests/ds_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_ui/ds_ui.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ds/modules/ds_ui/ds_ui.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/entity_cache_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/entity_cache_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/entity_cache_test_dependency.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/entity_cache_test_dependency.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/entity_crud_hook_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/entity_crud_hook_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/content_types/entity_context/entity_field.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/content_types/entity_context/entity_field.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/content_types/form/entity_form_field.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/content_types/form/entity_form_field.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/relationships/entity_from_field.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/relationships/entity_from_field.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/entity_query_access_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/entity_query_access_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/error_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/error_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.info" afterPath="$PROJECT_DIR$/modules/field/field.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/field.module" afterPath="$PROJECT_DIR$/modules/field/field.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/field_sql_storage/field_sql_storage.info" afterPath="$PROJECT_DIR$/modules/field/modules/field_sql_storage/field_sql_storage.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/tests/field_test.info" afterPath="$PROJECT_DIR$/modules/field/tests/field_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_ui/field_ui.info" afterPath="$PROJECT_DIR$/modules/field_ui/field_ui.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/file.info" afterPath="$PROJECT_DIR$/modules/file/file.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/tests/file.test" afterPath="$PROJECT_DIR$/modules/file/tests/file.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/file/tests/file_module_test.info" afterPath="$PROJECT_DIR$/modules/file/tests/file_module_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/file_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/file_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/filter/filter.info" afterPath="$PROJECT_DIR$/modules/filter/filter.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/filter_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/filter_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/form.inc" afterPath="$PROJECT_DIR$/includes/form.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/form_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/form_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/forum/forum.info" afterPath="$PROJECT_DIR$/modules/forum/forum.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/garland/garland.info" afterPath="$PROJECT_DIR$/themes/garland/garland.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/header.less" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/help/help.info" afterPath="$PROJECT_DIR$/modules/help/help.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/image.info" afterPath="$PROJECT_DIR$/modules/image/image.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/image/tests/image_module_test.info" afterPath="$PROJECT_DIR$/modules/image/tests/image_module_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/image_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/image_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/jump-menu.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/jump-menu.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/list/list.info" afterPath="$PROJECT_DIR$/modules/field/modules/list/list.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/list/tests/list_test.info" afterPath="$PROJECT_DIR$/modules/field/modules/list/tests/list_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/locale.info" afterPath="$PROJECT_DIR$/modules/locale/locale.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/locale/tests/locale_test.info" afterPath="$PROJECT_DIR$/modules/locale/tests/locale_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/math-expr.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/math-expr.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/menu.inc" afterPath="$PROJECT_DIR$/includes/menu.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/menu/menu.info" afterPath="$PROJECT_DIR$/modules/menu/menu.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/menu_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/menu_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/minimal/minimal.info" afterPath="$PROJECT_DIR$/profiles/minimal/minimal.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/modal.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/modal.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/js/modal.js" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/js/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/module_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/module_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.info" afterPath="$PROJECT_DIR$/modules/node/node.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/node.module" afterPath="$PROJECT_DIR$/modules/node/node.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_access_test.info" afterPath="$PROJECT_DIR$/modules/node/tests/node_access_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/content_types/node_context/node_comment_form.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/content_types/node_context/node_comment_form.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/page_manager/plugins/tasks/node_edit.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/page_manager/plugins/tasks/node_edit.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_test.info" afterPath="$PROJECT_DIR$/modules/node/tests/node_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/node/tests/node_test_exception.info" afterPath="$PROJECT_DIR$/modules/node/tests/node_test_exception.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/page_manager/plugins/tasks/node_view.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/page_manager/plugins/tasks/node_view.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/number/number.info" afterPath="$PROJECT_DIR$/modules/field/modules/number/number.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/openid/openid.info" afterPath="$PROJECT_DIR$/modules/openid/openid.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/openid/tests/openid_test.info" afterPath="$PROJECT_DIR$/modules/openid/tests/openid_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/options/options.info" afterPath="$PROJECT_DIR$/modules/field/modules/options/options.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/osteopathie.iml" afterPath="$PROJECT_DIR$/.idea/osteopathie.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/osteopathie.info" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/osteopathie.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/overlay/overlay.info" afterPath="$PROJECT_DIR$/modules/overlay/overlay.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/page_manager/plugins/tasks/page.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/page_manager/plugins/tasks/page.admin.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/bootstrap-12--node-article.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/bootstrap-12--node-article.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--article.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--article.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/page_manager/page_manager.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/page_manager/page_manager.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/page_manager/page_manager.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/page_manager/page_manager.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/content_types/page/page_title.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/content_types/page/page_title.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/path/path.info" afterPath="$PROJECT_DIR$/modules/path/path.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/path_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/path_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.install" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.js" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.pathauto.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.pathauto.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.test" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.tokens.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/pathauto/pathauto.tokens.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/php/php.info" afterPath="$PROJECT_DIR$/modules/php/php.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/plugins.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/plugins.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/poll/poll.info" afterPath="$PROJECT_DIR$/modules/poll/poll.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile.info" afterPath="$PROJECT_DIR$/modules/profile/profile.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/profile/profile.test" afterPath="$PROJECT_DIR$/modules/profile/profile.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/psr_0_test/psr_0_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/psr_0_test/psr_0_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/psr_4_test/psr_4_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/psr_4_test/psr_4_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/rdf.info" afterPath="$PROJECT_DIR$/modules/rdf/rdf.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/rdf.module" afterPath="$PROJECT_DIR$/modules/rdf/rdf.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rdf/tests/rdf_test.info" afterPath="$PROJECT_DIR$/modules/rdf/tests/rdf_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/requirements1_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/requirements1_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/requirements2_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/requirements2_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/search.info" afterPath="$PROJECT_DIR$/modules/search/search.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/tests/search_embedded_form.info" afterPath="$PROJECT_DIR$/modules/search/tests/search_embedded_form.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/tests/search_extra_type.info" afterPath="$PROJECT_DIR$/modules/search/tests/search_extra_type.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/search/tests/search_node_tags.info" afterPath="$PROJECT_DIR$/modules/search/tests/search_node_tags.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/session_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/session_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/seven/seven.info" afterPath="$PROJECT_DIR$/themes/seven/seven.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/shortcut/shortcut.info" afterPath="$PROJECT_DIR$/modules/shortcut/shortcut.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/simpletest.info" afterPath="$PROJECT_DIR$/modules/simpletest/simpletest.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/standard/standard.info" afterPath="$PROJECT_DIR$/profiles/standard/standard.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/stark/stark.info" afterPath="$PROJECT_DIR$/themes/stark/stark.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/statistics/statistics.info" afterPath="$PROJECT_DIR$/modules/statistics/statistics.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/style.less" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/stylizer.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/stylizer.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/stylizer/stylizer.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/stylizer/stylizer.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/syslog/syslog.info" afterPath="$PROJECT_DIR$/modules/syslog/syslog.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.info" afterPath="$PROJECT_DIR$/modules/system/system.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/system.module" afterPath="$PROJECT_DIR$/modules/system/system.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_dependencies_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_dependencies_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_core_version_dependencies_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_core_version_dependencies_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_core_version_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_core_version_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_module_version_dependencies_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_module_version_dependencies_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_module_version_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_incompatible_module_version_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/system_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/system_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/taxonomy/taxonomy.info" afterPath="$PROJECT_DIR$/modules/taxonomy/taxonomy.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/taxonomy_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/taxonomy_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/term_depth/term_depth.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/term_depth/term_depth.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/content_types/term_context/term_description.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/content_types/term_context/term_description.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_basetheme/test_basetheme.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_basetheme/test_basetheme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_subtheme/test_subtheme.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_subtheme/test_subtheme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_theme/test_theme.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/themes/test_theme/test_theme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles/testing/testing.info" afterPath="$PROJECT_DIR$/profiles/testing/testing.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field/modules/text/text.info" afterPath="$PROJECT_DIR$/modules/field/modules/text/text.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/theme_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/theme_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/toolbar/toolbar.info" afterPath="$PROJECT_DIR$/modules/toolbar/toolbar.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/tracker/tracker.info" afterPath="$PROJECT_DIR$/modules/tracker/tracker.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/translation/translation.info" afterPath="$PROJECT_DIR$/modules/translation/translation.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/translation/tests/translation_test.info" afterPath="$PROJECT_DIR$/modules/translation/tests/translation_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trigger/trigger.info" afterPath="$PROJECT_DIR$/modules/trigger/trigger.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/trigger/tests/trigger_test.info" afterPath="$PROJECT_DIR$/modules/trigger/tests/trigger_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/update.info" afterPath="$PROJECT_DIR$/modules/update/update.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/update_script_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/update_script_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/update_test.info" afterPath="$PROJECT_DIR$/modules/update/tests/update_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/update_test_1.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/update_test_1.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/update_test_2.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/update_test_2.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/update_test_3.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/update_test_3.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/themes/update_test_basetheme/update_test_basetheme.info" afterPath="$PROJECT_DIR$/modules/update/tests/themes/update_test_basetheme/update_test_basetheme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/update/tests/themes/update_test_subtheme/update_test_subtheme.info" afterPath="$PROJECT_DIR$/modules/update/tests/themes/update_test_subtheme/update_test_subtheme.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/url_alter_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/url_alter_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/contexts/user.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/contexts/user.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/user.info" afterPath="$PROJECT_DIR$/modules/user/user.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/contexts/user_edit_form.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/plugins/contexts/user_edit_form.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/user/tests/user_form_test.info" afterPath="$PROJECT_DIR$/modules/user/tests/user_form_test.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.api.php" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.core.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.core.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.entity.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.entity.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.features.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.features.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/uuid.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/includes/uuid.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.inc" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.install" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid_path/uuid_path.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid_path/uuid_path.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid_services/uuid_services.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid_services/uuid_services.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid_services/uuid_services.module" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid_services/uuid_services.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid_services_example/uuid_services_example.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/uuid/uuid_services_example/uuid_services_example.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/variables.less" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/views_content/views_content.info" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/ctools/views_content/views_content.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/simpletest/tests/xmlrpc_test.info" afterPath="$PROJECT_DIR$/modules/simpletest/tests/xmlrpc_test.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/slick.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/slick.tpl.php" />
     </list>
     <ignored path="osteopathie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -316,8 +56,8 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="391" max-vertical-offset="2261">
-              <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+            <state vertical-scroll-proportion="-4.6538463" vertical-offset="1698" max-vertical-offset="2244">
+              <caret line="179" column="81" selection-start-line="179" selection-start-column="81" selection-end-line="179" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -333,11 +73,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="osteo_update.module" pinned="false" current-in-tab="true">
+      <file leaf-file-name="osteo_update.module" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/osteo_update/osteo_update.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10014728" vertical-offset="0" max-vertical-offset="679">
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="425">
               <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-12--node-article.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/bootstrap-12--node-article.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.1923075" vertical-offset="43" max-vertical-offset="459">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node--article.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--article.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.6538463" vertical-offset="295" max-vertical-offset="918">
+              <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -346,8 +106,8 @@
       <file leaf-file-name="slick.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/slick.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="255" max-vertical-offset="1309">
-              <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+            <state vertical-scroll-proportion="-5.1538463" vertical-offset="631" max-vertical-offset="1275">
+              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding>
                 <element signature="e#8#811#0#PHP" expanded="true" />
               </folding>
@@ -355,10 +115,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="417">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="page--front.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page--front.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-71.23077" vertical-offset="1259" max-vertical-offset="3706">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1259" max-vertical-offset="3706">
               <caret line="183" column="28" selection-start-line="183" selection-start-column="28" selection-end-line="183" selection-end-column="28" />
               <folding>
                 <element signature="e#8#3457#0#PHP" expanded="true" />
@@ -393,12 +163,10 @@
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page--node--article.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page--node.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/bootstrap-12--node-article.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/contrib/ckeditor/ckeditor.config.js" />
         <option value="$PROJECT_DIR$/sites/all/modules/contrib/ckeditor_old/ckeditor.config.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/osteopathie.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/js/main.js" />
-        <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--article.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/ckeditor.config.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/less/style.less" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/osteo_contact/osteo_contact.info" />
@@ -424,8 +192,10 @@
         <option value="$PROJECT_DIR$/sites/all/modules/contrib/slick_views/templates/slick-views.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/contrib/slick/slick.api.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/template.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/slick.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/bootstrap-12--node-article.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--article.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/slick.tpl.php" />
       </list>
     </option>
   </component>
@@ -792,15 +562,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="d9cfc840-e0ee-4fe1-8723-b295413e43cb" server_name="osteo">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="d9cfc840-e0ee-4fe1-8723-b295413e43cb" server_name="osteo">
       <method />
     </configuration>
     <list size="1">
@@ -832,6 +602,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32742155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -842,12 +613,11 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32742155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32469305" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985657" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -874,13 +644,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/bootstrap/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20474778" vertical-offset="27096" max-vertical-offset="115770">
-          <caret line="1602" column="4" selection-start-line="1602" selection-start-column="4" selection-end-line="1602" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5030866" vertical-offset="8481" max-vertical-offset="9129">
@@ -955,13 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="1836">
           <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--article.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="935">
-          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1060,13 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1564">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/bootstrap-12--node-article.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="510">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1198,31 +947,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/slick.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="255" max-vertical-offset="1309">
-          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-          <folding>
-            <element signature="e#8#811#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page--front.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-71.23077" vertical-offset="1259" max-vertical-offset="3706">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1259" max-vertical-offset="3706">
           <caret line="183" column="28" selection-start-line="183" selection-start-column="28" selection-end-line="183" selection-end-column="28" />
           <folding>
             <element signature="e#8#3457#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="391" max-vertical-offset="2261">
-          <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,8 +967,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/osteo_update/osteo_update.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10014728" vertical-offset="0" max-vertical-offset="679">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="425">
           <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/bootstrap-12--node-article.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.1923075" vertical-offset="43" max-vertical-offset="459">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/node--article.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6538463" vertical-offset="295" max-vertical-offset="918">
+          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6538463" vertical-offset="1698" max-vertical-offset="2244">
+          <caret line="179" column="81" selection-start-line="179" selection-start-column="81" selection-end-line="179" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/slick.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.1538463" vertical-offset="631" max-vertical-offset="1275">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding>
+            <element signature="e#8#811#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

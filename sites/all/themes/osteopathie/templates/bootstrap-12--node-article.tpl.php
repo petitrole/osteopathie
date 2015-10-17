@@ -14,9 +14,6 @@
     <<?php print $central_wrapper; ?> class="col-sm-12 <?php print $central_classes; ?>">
       <?php print $central; ?>
     </<?php print $central_wrapper; ?>>
-<?php dsm ('bootstrap ds') ; ?>
-<?php dsm ($central ,'central') ; ?>
-tototto
   </div>
 </<?php print $layout_wrapper ?>>
 
