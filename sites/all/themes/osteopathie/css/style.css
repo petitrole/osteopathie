@@ -7523,6 +7523,7 @@ img.img-center {
   background-color: #362f2d;
   padding: 3%;
   margin-top: -25px;
+  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .top-mid-buffer {
