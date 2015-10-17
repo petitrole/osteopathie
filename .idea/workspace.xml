@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4e6b1c0-1b55-485f-bb16-a7054b46a14b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/responsive.less" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/responsive.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="osteopathie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="responsive.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/responsive.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.26923" vertical-offset="273" max-vertical-offset="986">
-              <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.83514774" vertical-offset="296" max-vertical-offset="1224">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -75,8 +75,8 @@
       <file leaf-file-name="content.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/content.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.192308" vertical-offset="1327" max-vertical-offset="2006">
-              <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+            <state vertical-scroll-proportion="-18.692308" vertical-offset="738" max-vertical-offset="2006">
+              <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -114,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-site-form.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact-site-form.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40396342" vertical-offset="908" max-vertical-offset="1564">
+            <state vertical-scroll-proportion="-10.192307" vertical-offset="908" max-vertical-offset="1564">
               <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
               <folding />
             </state>
@@ -195,8 +195,8 @@
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page--front.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/less/content.less" />
-        <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/less/responsive.less" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/less/responsive.less" />
       </list>
     </option>
   </component>
@@ -981,14 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/content.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.192308" vertical-offset="1327" max-vertical-offset="2006">
-          <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/navbar.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.6666665" vertical-offset="680" max-vertical-offset="11509">
@@ -1007,18 +999,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/responsive.less">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.26923" vertical-offset="273" max-vertical-offset="986">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        <state vertical-scroll-proportion="-10.192307" vertical-offset="908" max-vertical-offset="1564">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/content.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40396342" vertical-offset="908" max-vertical-offset="1564">
-          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        <state vertical-scroll-proportion="-18.692308" vertical-offset="738" max-vertical-offset="2006">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/responsive.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83514774" vertical-offset="296" max-vertical-offset="1224">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
           <folding />
         </state>
       </provider>

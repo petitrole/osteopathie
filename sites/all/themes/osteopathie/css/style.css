@@ -7558,6 +7558,20 @@ img.img-center {
   #menunav ul.language-switcher-locale-url li a {
     background: transparent;
   }
+  #contact-site-form .contact-element .form-group {
+    text-align: left;
+  }
+  #contact-site-form .contact-element .form-group label {
+    max-width: 100%;
+  }
+  #contact-site-form input,
+  #contact-site-form #edit-name,
+  #contact-site-form #edit-prenom,
+  #contact-site-form #edit-mail,
+  #contact-site-form #edit-cid {
+    max-width: 100%;
+    float: left;
+  }
 }
 @media screen and (min-width: 1200px) {
   #menunav {
