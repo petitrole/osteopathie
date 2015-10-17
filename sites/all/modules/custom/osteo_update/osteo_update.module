@@ -2,7 +2,7 @@
   /**
    * first update
    */
-  function osteo_update_update_7001(&$sandbox) {
+  function osteo_update_update_7002(&$sandbox) {
     //desactivation des modules par defaut
     module_disable(array(
         'overlay',
