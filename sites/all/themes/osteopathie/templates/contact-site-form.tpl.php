@@ -20,7 +20,7 @@
 <!--    <img class="vcenter" src="--><?php //print $base_url . '/sites/all/themes/osteopathie/images/facebook.png'; ?><!--"/>-->
 <!--    <img class="vcenter" src="--><?php //print $base_url . '/sites/all/themes/osteopathie/images/google.png'; ?><!--"/>-->
 <!--    <img class="vcenter" src="--><?php //print $base_url . '/sites/all/themes/osteopathie/images/linkedin.png'; ?><!--"/>-->
-<!--  </div>-->
+<!-- </div>-->
 </div>
 
 
