@@ -29,9 +29,9 @@
 
     $form['subject']['#access'] = FALSE;
 
-//    $form['cid']['#title']     = 'Votre demande';
-//    $form['cid']['#maxlength'] = 128;
-//    $form['cid']['#weight']    = 4;
+    $form['cid']['#title']     = 'Votre demande';
+    $form['cid']['#maxlength'] = 128;
+    $form['cid']['#weight']    = 4;
 
     $form['message']['#title']     = 'Message';
     $form['message']['#maxlength'] = 128;
