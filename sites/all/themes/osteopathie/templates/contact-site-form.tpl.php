@@ -15,12 +15,12 @@
   <?php  $block = module_invoke('block', 'block_view', '2');
     print render($block['content']);
   ?>
-  <div id="social-icon" class="col-xs-12 col-sm-4 col-md-8  ">
-    <img class="vcenter" src="<?php print $base_url . '/sites/all/themes/osteopathie/images/viadeo.png'; ?>"/>
-    <img class="vcenter" src="<?php print $base_url . '/sites/all/themes/osteopathie/images/facebook.png'; ?>"/>
-    <img class="vcenter" src="<?php print $base_url . '/sites/all/themes/osteopathie/images/google.png'; ?>"/>
-    <img class="vcenter" src="<?php print $base_url . '/sites/all/themes/osteopathie/images/linkedin.png'; ?>"/>
-  </div>
+<!--  <div id="social-icon" class="col-xs-12 col-sm-4 col-md-8  ">-->
+<!--    <img class="vcenter" src="--><?php //print $base_url . '/sites/all/themes/osteopathie/images/viadeo.png'; ?><!--"/>-->
+<!--    <img class="vcenter" src="--><?php //print $base_url . '/sites/all/themes/osteopathie/images/facebook.png'; ?><!--"/>-->
+<!--    <img class="vcenter" src="--><?php //print $base_url . '/sites/all/themes/osteopathie/images/google.png'; ?><!--"/>-->
+<!--    <img class="vcenter" src="--><?php //print $base_url . '/sites/all/themes/osteopathie/images/linkedin.png'; ?><!--"/>-->
+<!--  </div>-->
 </div>
 
 
