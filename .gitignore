@@ -5,10 +5,7 @@ sites/*/settings*.php
 #sites/*/files
 #sites/*/private
 
-#ide
-.idea/*
-.project
+# IDE
 .idea
-.idea/workspace.xml
-.idea/
-.idea/workspace.xml
+.project
+
