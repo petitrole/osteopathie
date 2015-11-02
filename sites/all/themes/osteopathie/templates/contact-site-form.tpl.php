@@ -67,6 +67,12 @@
   </div>
 
   <div class=''>
+    <div class='col-xs-12 col-sm-4 col-md-6 contact-element'>
+      <?php print drupal_render($form['cabinet']); ?>
+    </div>
+  </div>
+
+  <div class=''>
     <div class='col-xs-12 col-sm-4  col-md-6 contact-element'>
       <?php print drupal_render($form['message']); ?>
     </div>

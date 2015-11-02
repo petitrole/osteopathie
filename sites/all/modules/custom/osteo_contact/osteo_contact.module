@@ -1,31 +1,41 @@
 <?php
-  function osteo_contact_form_contact_site_form_alter(&$form,&$form_state,$form_id) {
+  function osteo_contact_form_contact_site_form_alter(&$form, &$form_state, $form_id) {
+    $choix_cab      = array(
+      '#1' => 'Roman',
+      '#2' => 'Valence',
+      '#3' => 'Allex',
+    );
     $form['prenom'] = array(
-      '#type' => 'textfield',
-      '#title' => 'Prénom',
+      '#type'          => 'textfield',
+      '#title'         => 'Prénom',
       '#default_value' => '',
-      '#size' => 60,
-      '#maxlength' => 128,
-      '#required' => TRUE,
-      '#weight' =>1 );
+      '#size'          => 60,
+      '#maxlength'     => 128,
+      '#required'      => TRUE,
+      '#weight'        => 1
+    );
 
-    $form['mail']['#title'] = 'Adresse Email';
-    $form['mail']['#maxlength'] = 128;
-    $form['mail']['#weight'] = 2;
+    $form['mail']['#title']                 = 'Adresse Email';
+    $form['mail']['#maxlength']             = 128;
+    $form['mail']['#weight']                = 2;
     $form['mail']['#attributes']['onkeyup'] = 'controle_mail()';
-    $form['#attached']['js'] = array(drupal_get_path('module', 'osteo_contact').'/js/osteo_contact.js');
-    $form['#validate'][] = "validate_email";
+    $form['#attached']['js']                = array(drupal_get_path('module', 'osteo_contact') . '/js/osteo_contact.js');
+    $form['#validate'][]                    = "validate_email";
+
+    $form['cabinet']['#title']   = 'Choix du cabinet';
+    $form['cabinet']['#type']    = 'select';
+    $form['cabinet']['#options'] = $choix_cab;
 
 
     $form['subject']['#access'] = FALSE;
 
-    $form['cid']['#title'] = 'Votre demande';
+    $form['cid']['#title']     = 'Votre demande';
     $form['cid']['#maxlength'] = 128;
-    $form['cid']['#weight'] = 4;
+    $form['cid']['#weight']    = 4;
 
-    $form['message']['#title'] = 'Message';
+    $form['message']['#title']     = 'Message';
     $form['message']['#maxlength'] = 128;
-    $form['message']['#weight'] = 5;
+    $form['message']['#weight']    = 5;
 
     unset($form['copy']);
 
@@ -36,9 +46,10 @@
   function osteo_contact_menu_alter(&$items) {
     $items['admin/structure/contact']['page callback'] = 'BO_contact_add_description';
   }
+
   function BO_contact_add_description() {
-    $form = drupal_get_form('description_contact_form');
-    $output = contact_category_list();
+    $form                  = drupal_get_form('description_contact_form');
+    $output                = contact_category_list();
     $output['description'] = $form;
     return $output;
   }
@@ -46,36 +57,37 @@
   function description_contact_form($form, &$form_state) {
     global $base_url;
 
-    $form['description_formulaire_contact'] =  array(
-      '#type' => 'textarea',
-      '#description' => 'Entrer un texte que vous voulez afficher en entête dans le formulaire de contact',
-      '#title' => 'Descrition du formulaire de contact',
-      '#default_value' => variable_get('description_contact',''),
-      '#required' => FALSE,
-      '#weight' => -5
+    $form['description_formulaire_contact'] = array(
+      '#type'          => 'textarea',
+      '#description'   => 'Entrer un texte que vous voulez afficher en entête dans le formulaire de contact',
+      '#title'         => 'Descrition du formulaire de contact',
+      '#default_value' => variable_get('description_contact', ''),
+      '#required'      => FALSE,
+      '#weight'        => -5
     );
 
-    $form['#submit'][] = "save_description";
+    $form['#submit'][]         = "save_description";
     $form['actions']['submit'] = array(
-      '#type' => 'submit',
-      '#value' => t('Enregistrer'),
+      '#type'   => 'submit',
+      '#value'  => t('Enregistrer'),
       '#weight' => 15,
       '#submit' => array('save_description_submit'),
     );
 
 
-    $form['#action'] = $base_url."/admin/structure/contact";
+    $form['#action'] = $base_url . "/admin/structure/contact";
     return $form;
   }
 
   function save_description_submit(&$form, &$form_state) {
-    variable_set('description_contact',$form_state['values']['description_formulaire_contact']);
+    variable_set('description_contact', $form_state['values']['description_formulaire_contact']);
     drupal_set_message("La description du formulaire de contact a été enregistrée");
   }
 
 
-  function validate_email(&$form,&$form_state) {
+  function validate_email(&$form, &$form_state) {
     $email = $form_state['values']['mail'];
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL))
-      form_set_error('mail',"Cet adresse email n'est pas valide");
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      form_set_error('mail', "Cet adresse email n'est pas valide");
+    }
   }
