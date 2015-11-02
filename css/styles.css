@@ -7516,6 +7516,9 @@ select#edit-cabinet.form-control.form-select {
   width: 149px;
   color: #23b7eb;
 }
+#contact-site-form .form-type-select.form-item-cid.form-item.form-group {
+  display: none;
+}
 #social-icon img:nth-child(n+2) {
   padding-left: 10px;
 }
