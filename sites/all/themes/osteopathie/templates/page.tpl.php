@@ -190,7 +190,9 @@
 
           <!--contact-->
           <?php  $block = module_invoke('formblock', 'block_view', 'contact_site');
-            print render($block['content']);
+           // print render($block['content']);
+            $content    = drupal_render($block['content']);
+            print $content;
           ?>
           <!--footer-->
           <div id="info-footer" >

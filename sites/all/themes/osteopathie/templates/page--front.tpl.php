@@ -112,7 +112,9 @@
             <div id="block-locale-language" class="block block-locale langue-icones">
               <?php
                 $block = module_invoke('locale', 'block_view', 'language');
-                print $block['content'];
+                //print $block['content'];
+                $content    = render($block['content']);
+                print $content;
               ?>
             </div>
           </nav>
@@ -139,7 +141,9 @@
     </div>
     <div class="site-info pull-right">
       <?php   $block = module_invoke('block', 'block_view', '1');
-        print render($block['content']); ?>
+       // print render($block['content']);
+      $content    = render($block['content']);
+      print $content;?>
     </div>
   </div>
   <?php print render($page['header']); ?>
@@ -191,16 +195,27 @@
             //          print render($block['content']);
           ?>
           <?php   $block = module_invoke('views', 'block_view', 'ticker-block');
-            print render($block['content']); ?>
+           // print render($block['content']);
+            $content    = render($block['content']);
+            print $content;
+          ?>
           <!--contact-->
           <?php  $block = module_invoke('formblock', 'block_view', 'contact_site');
+<<<<<<< HEAD
 //dsm($block ,'contact') ;          
  print render($block['content']);
+=======
+            //print render($block['content']);
+            $content    = drupal_render($block['content']);
+            print $content;
+>>>>>>> 44fb033cfcfacfba0c042aa7fd7c854121ae795a
           ?>
           <!--footer-->
           <div id="info-footer">
             <?php  $block = module_invoke('block', 'block_view', '3');
-              print render($block['content']);
+             // print render($block['content']);
+              $content    = render($block['content']);
+              print $content;
             ?>
           </div>
         </div>
