@@ -77,14 +77,14 @@
 <!-- navigation panel -->
 <header id="header" role='banner' class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-auto ">
       <img src="<?php print $base_url . '/sites/all/themes/osteopathie/images/header_blue.png '; ?>" class="img-responsive header-bg" alt="header image"/>
     </div>
   </div>
 </header>
 
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="row">
+  <div class="row top-mid-buffer">
     <div class="navbar-header">
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -96,31 +96,33 @@
     </div>
 
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-      <div class="navbar-collapse collapse">
-        <nav role="navigation">
-          <?php if (!empty($primary_nav)): ?>
-            <?php print render($primary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($secondary_nav)): ?>
-            <?php print render($secondary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($page['navigation'])): ?>
-            <?php print render($page['navigation']); ?>
-          <?php endif; ?>
-          <!--langague icones-->
-          <div id="block-locale-language" class="block block-locale langue-icones">
-            <?php
-              $block = module_invoke('locale', 'block_view', 'language');
-              print $block['content'];
-            ?>
-          </div>
-        </nav>
+      <div id="menunav">
+        <div class="navbar-collapse collapse">
+          <nav role="navigation">
+            <?php if (!empty($primary_nav)): ?>
+              <?php print render($primary_nav); ?>
+            <?php endif; ?>
+            <?php if (!empty($secondary_nav)): ?>
+              <?php //print render($secondary_nav); ?>
+            <?php endif; ?>
+            <?php if (!empty($page['navigation'])): ?>
+              <?php print render($page['navigation']); ?>
+            <?php endif; ?>
+            <!--langague icones-->
+            <div id="block-locale-language" class="block block-locale langue-icones">
+              <?php
+                $block = module_invoke('locale', 'block_view', 'language');
+                print $block['content'];
+              ?>
+            </div>
+          </nav>
+        </div>
       </div>
     <?php endif; ?>
   </div>
   <!-- /row header-->
-  <div class="row top-buffer">
-    <div class="col-md-9">
+  <div class="row">
+    <div class="col-sm-3 col-md-8">
       <div id="site-name">
         <?php if (!empty($site_name)): ?>
           <h1 id="site-name">
@@ -128,22 +130,24 @@
           </h1>
         <?php endif; ?>
       </div>
-    </div>
-    <div class="site-info pull-right ">
-      <?php   $block = module_invoke('block', 'block_view', '1');
-        print render($block['content']); ?>
-    </div>
-
-
-    <div class="col-md-9">
       <?php if (!empty($site_slogan)): ?>
-        <div id="site-slogan" class="col-md-12">
+        <div id="site-slogan" class="col-sm-4 col-md-9">
           <?php print $site_slogan; ?>
         </div>
       <?php endif; ?>
+
+    </div>
+    <div class="site-info pull-right">
+      <?php   $block = module_invoke('block', 'block_view', '1');
+        print render($block['content']); ?>
     </div>
   </div>
   <?php print render($page['header']); ?>
+  <?php if (!empty($breadcrumb)): print $breadcrumb;
+  else:
+    print '<ol class="breadcrumb"> <a   href=" '. $base_url .' ">Accueil</a></ol>';
+
+  endif; ?>
 </header>
 
 
@@ -155,7 +159,6 @@
         <?php if (!empty($page['highlighted'])): ?>
           <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
         <?php endif; ?>
-        <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
         <a id="main-content"></a>
         <?php print render($title_prefix); ?>
         <?php if (!empty($title)): ?>
