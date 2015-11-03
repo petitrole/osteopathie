@@ -201,14 +201,10 @@
           ?>
           <!--contact-->
           <?php  $block = module_invoke('formblock', 'block_view', 'contact_site');
-<<<<<<< HEAD
-//dsm($block ,'contact') ;          
- print render($block['content']);
-=======
             //print render($block['content']);
             $content    = drupal_render($block['content']);
             print $content;
->>>>>>> 44fb033cfcfacfba0c042aa7fd7c854121ae795a
+
           ?>
           <!--footer-->
           <div id="info-footer">
