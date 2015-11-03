@@ -4,6 +4,21 @@
    * @file
    * template.php
    */
+  function osteopathie_preprocess_html (&$vars){
+    // Bugfix : &amp;#039; dans les titres
+    if (isset($vars['head_title'])) {
+      $vars['head_title'] = str_replace('&amp;#039;', "'", $vars['head_title']);
+      $vars['head_title'] = str_replace('&#039;', "'", $vars['head_title']);
+    }
+    if (isset($vars['head_title_array']['title'])) {
+      $vars['head_title_array']['title'] = str_replace('&amp;#039;', "'", $vars['head_title_array']['title']);
+      $vars['head_title_array']['title'] = str_replace('&#039;', "'", $vars['head_title_array']['title']);
+    }
+    if (isset($vars['head_array']['title'])) {
+      $vars['head_array']['title'] = str_replace('&amp;#039;', "'", $vars['head_array']['title']);
+      $vars['head_array']['title'] = str_replace('&#039;', "'", $vars['head_array']['title']);
+    }
+  }
   function osteopathie_preprocess_page(&$vars, $hook) {
     // Adaptive design -> détection téléphone vs pc
     include_once(drupal_get_path('theme', 'osteopathie') . '/libraries/Mobile_Detect.php');
