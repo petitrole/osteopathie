@@ -1,7 +1,7 @@
 <?php
   function osteo_contact_form_contact_site_form_alter(&$form, &$form_state, $form_id) {
     $choix_cab      = array(
-      'Roman' => 'Roman',
+      'Romans' => 'Romans',
       'Valence' => 'Valence',
       'Allex' => 'Allex',
     );
