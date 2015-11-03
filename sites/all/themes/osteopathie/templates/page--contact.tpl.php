@@ -198,10 +198,10 @@
 
 <!--ref-->
 <?php
-  $metatitle = "Véronique Long, ostéopathe à valence, Roman, Allex";
+  $metatitle = "Véronique Long, ostéopathe à valence, Romans, Allex";
   $metadesc  = "Cabinet d'Ostéopathie de Véronique Long. Consultations à Valence, Romans, Allex.
 Ostéopathe générale, périnatale et pédiatrique (adultes, seniors, femmes enceintes, nouveaux-nés, enfants).
-RDV et urgences : Valence 06 46 01 22 92 / Romans  04 75 72 72 32";
+RDV et urgences : Valence 06 46 01 22 92 / Roman  04 75 72 72 32";
 
   $elemtitle = array(
     '#tag'        => 'meta',
