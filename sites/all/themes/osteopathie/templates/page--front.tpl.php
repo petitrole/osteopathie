@@ -194,7 +194,8 @@
             print render($block['content']); ?>
           <!--contact-->
           <?php  $block = module_invoke('formblock', 'block_view', 'contact_site');
-            print render($block['content']);
+//dsm($block ,'contact') ;          
+ print render($block['content']);
           ?>
           <!--footer-->
           <div id="info-footer">
