@@ -18,6 +18,28 @@
       $vars['head_array']['title'] = str_replace('&amp;#039;', "'", $vars['head_array']['title']);
       $vars['head_array']['title'] = str_replace('&#039;', "'", $vars['head_array']['title']);
     }
+    // Setup IE meta tag to force IE rendering mode
+    $meta_ie_render_engine = array(
+      '#type'       => 'html_tag',
+      '#tag'        => 'meta',
+      '#attributes' => array(
+        'content'    => 'IE=edge,chrome=1',
+        'http-equiv' => 'X-UA-Compatible',
+      )
+    );
+    //  Mobile viewport optimized: h5bp.com/viewport
+    $meta_viewport = array(
+      '#type'       => 'html_tag',
+      '#tag'        => 'meta',
+      '#attributes' => array(
+        'content' => 'width=device-width',
+        'name'    => 'viewport',
+      )
+    );
+
+    // Add header meta tag for IE to head
+    drupal_add_html_head($meta_ie_render_engine, 'meta_ie_render_engine');
+    drupal_add_html_head($meta_viewport, 'meta_viewport');
   }
   function osteopathie_preprocess_page(&$vars, $hook) {
     // Adaptive design -> détection téléphone vs pc

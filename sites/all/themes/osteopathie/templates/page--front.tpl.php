@@ -224,7 +224,35 @@
 
   <?php print render($page['footer']); ?>
 </footer>
+<!--ref-->
+<?php
+  $metatitle = "Véronique Long, ostéopathe à valence, Roman, Allex";
+  $metadesc  = "Cabinet d'Ostéopathie de Véronique Long. Consultations à Valence, Romans, Allex.
+Ostéopathe générale, périnatale et pédiatrique (adultes, seniors, femmes enceintes, nouveaux-nés, enfants).
+RDV et urgences : Valence 06 46 01 22 92 / Romans  04 75 72 72 32";
 
+  $elemtitle = array(
+    '#tag'        => 'meta',
+    '#attributes' => array(
+      'name'    => 'title',
+      'content' => $metatitle,
+
+    ),
+  );
+  $elemdesc  = array(
+    '#tag'        => 'meta',
+    '#attributes' => array(
+      'name'    => 'description',
+      'content' => $metadesc,
+    ),
+  );
+
+
+  drupal_add_html_head($elemtitle, 'osteo_meta_title_list' );
+  drupal_add_html_head($elemdesc, 'osteo_meta_desc_list');
+
+
+?>
 
 
 
