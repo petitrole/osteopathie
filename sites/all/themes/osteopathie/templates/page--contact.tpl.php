@@ -152,18 +152,19 @@
 
 
 <div id="page" class="clearfix <?php print $classes; ?>"<?php print $attributes; ?>>
-  <main id="main" class="container" role="main">
-    <div class="row relative">
+  <main id="main" class="main-wrapper" role="main">
+
 
       <section<?php print $content_column_class; ?>>
+        <div class="container">
         <?php if (!empty($page['highlighted'])): ?>
           <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
         <?php endif; ?>
         <a id="main-content"></a>
         <?php print render($title_prefix); ?>
-        <?php if (!empty($title)): ?>
-          <h1 class="page-header"><?php print $title; ?></h1>
-        <?php endif; ?>
+<!--        --><?php //if (!empty($title)): ?>
+<!--          <h1 class="page-header">--><?php //print $title; ?><!--</h1>-->
+<!--        --><?php //endif; ?>
         <?php print render($title_suffix); ?>
         <?php print $messages; ?>
         <?php if (!empty($tabs)): ?>
@@ -184,9 +185,9 @@
             $content    = render($block['content']);
             print $content;
           ?>
-        </div>
+          </div>
+          </div>
       </section>
-    </div>
   </main>
 </div>
 

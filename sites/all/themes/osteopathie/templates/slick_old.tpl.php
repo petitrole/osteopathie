@@ -22,41 +22,36 @@
     <?php endif; ?>
 
     <?php
-      //    // Add items.
       $items = array();
 
       $items[] = array(
-        '#markup'  => '<span class="caption"><img src="' . $base_url . '/sites/all/themes/osteopathie/images/carousel_images/consultation1.png"   /></span>',
-        '#caption' => 'test caption',
+        '#markup'  => '<span class="caption"><img title="test titre 1" src="' . $base_url . '/sites/all/themes/osteopathie/images/carousel_images/consultation1.png"   /></span>',
+        '#caption' => 'test caption 1',
       );
       $items[] = array(
-        '#markup'  => '<img src="' . $base_url . '/sites/all/themes/osteopathie/images/carousel_images/consultation2.png" />',
-        '#caption' => 'test caption',
+        '#markup'  => '<span class="caption"><img title="test titre 2" src="' . $base_url . '/sites/all/themes/osteopathie/images/carousel_images/consultation2.png" /></span>',
+        '#caption' => 'test caption 2',
       );
       $items[] = array(
-        '#markup'  => '<img src="' . $base_url . '/sites/all/themes/osteopathie/images/carousel_images/osteopathie1.png" />',
-        '#caption' => 'test caption',
+        '#markup'  => '<img title="test titre 3" src="' . $base_url . '/sites/all/themes/osteopathie/images/carousel_images/osteopathie1.png" />',
+        '#caption' => 'test caption 3',
       );
       $items[] = array(
         '#markup'  => '<img src="' . $base_url . '/sites/all/themes/osteopathie/images/carousel_images/osteopathie2.png" />',
-        '#caption' => 'test caption',
+        '#caption' => 'test caption 4',
       );
       $items[] = array(
         '#markup'  => '<img src="' . $base_url . '/sites/all/themes/osteopathie/images/carousel_images/osteopathie3.png" />',
-        '#caption' => 'test caption',
+        '#caption' => 'test caption 5',
       );
 
 
       foreach ($items as $delta => $item):
-        //print render($item['#markup'])  .' '. ( $item['#caption']);
         print render($item);
         ?>
+
       <?php endforeach; ?>
 
-
-    <?php //foreach ($items as $delta => $item): ?>
-    <!--  --><?php //print render($item); ?>
-    <?php //endforeach; ?>
 
     <?php if (empty($settings['unslick'])): ?>
   </div>
@@ -67,3 +62,4 @@
   </nav>
 <?php endif; ?>
 </div>
+
