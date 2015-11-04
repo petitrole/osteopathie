@@ -7529,6 +7529,10 @@ select#edit-cabinet.form-control.form-select {
   margin-top: -25px;
   text-align: center;
 }
+.page-contact form#contact-site-form {
+  margin-left: -15px;
+  margin-right: -15px;
+}
 @media screen and (max-width: 767px) {
   .top-mid-buffer {
     margin-top: 0px;

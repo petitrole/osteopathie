@@ -191,14 +191,14 @@
     <section<?php print $content_column_class; ?>>
       <div class="container">
         <div class="row top-buffer ">
-          <!--        --><?php //  $block = module_invoke('bootstrap_carousel_blocks', 'block_view', '1');
-            //          print render($block['content']);
+                 <?php  $block = module_invoke('views', 'block_view', 'slick_x-osteo_slick');
+                     print render($block['content']);
           ?>
-          <?php   $block = module_invoke('views', 'block_view', 'ticker-block');
-           // print render($block['content']);
-            $content    = render($block['content']);
-            print $content;
-          ?>
+<!--          --><?php //  $block = module_invoke('views', 'block_view', 'ticker-block');
+//           // print render($block['content']);
+//            $content    = render($block['content']);
+//            print $content;
+//          ?>
           <!--contact-->
           <?php  $block = module_invoke('formblock', 'block_view', 'contact_site');
             //print render($block['content']);
