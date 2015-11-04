@@ -178,7 +178,13 @@
         <?php endif; ?>
         <?php print render($page['content']);
         ?>
-        <!--footer-->
+      </section>
+
+    <!--footer-->
+    <section<?php print $content_column_class; ?>>
+
+          <div class="container">
+            <div class="row">
         <div id="info-footer">
           <?php  $block = module_invoke('block', 'block_view', '3');
             // print render($block['content']);
@@ -186,6 +192,8 @@
             print $content;
           ?>
           </div>
+          </div>
+            </div>
           </div>
       </section>
   </main>
