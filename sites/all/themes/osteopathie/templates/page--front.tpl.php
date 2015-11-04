@@ -194,11 +194,9 @@
                  <?php  $block = module_invoke('views', 'block_view', 'osteo_slick-block_osteo');
                      print render($block['content']);
           ?>
-<!--          --><?php //  $block = module_invoke('views', 'block_view', 'ticker-block');
-//           // print render($block['content']);
-//            $content    = render($block['content']);
-//            print $content;
-//          ?>
+          <?php  $block = module_invoke('views', 'block_view', 'slick_x-osteo_slick');
+            print render($block['content']);
+          ?>
           <!--contact-->
           <?php  $block = module_invoke('formblock', 'block_view', 'contact_site');
             //print render($block['content']);
