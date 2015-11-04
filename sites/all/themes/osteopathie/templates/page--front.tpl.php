@@ -191,7 +191,7 @@
     <section<?php print $content_column_class; ?>>
       <div class="container">
         <div class="row top-buffer ">
-                 <?php  $block = module_invoke('views', 'block_view', 'slick_x-osteo_slick');
+                 <?php  $block = module_invoke('views', 'block_view', 'osteo_slick-block_osteo');
                      print render($block['content']);
           ?>
 <!--          --><?php //  $block = module_invoke('views', 'block_view', 'ticker-block');
