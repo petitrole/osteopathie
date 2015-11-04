@@ -7434,20 +7434,8 @@ img.img-center {
 .top-mid-buffer {
   margin-top: 25px;
 }
-.carousel {
-  width: 50%;
-}
-.carousel .item {
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -ms-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s;
-}
-.carousel .item img {
-  width: 100%;
-  height: auto;
-  margin: auto;
+.slick-slider {
+  margin-bottom: 0px;
 }
 #contact-site-form {
   background: url("../images/footer-background.png");
