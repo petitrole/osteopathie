@@ -37,20 +37,12 @@
     $form['message']['#maxlength'] = 128;
     $form['message']['#weight']    = 5;
 
-<<<<<<< HEAD
- $form['osteo_captcha_element'] = array(
-=======
-
     $form['osteo_captcha_element'] = array(
->>>>>>> 08f2fed124e5d9309872a335fac11eb70d8a51c7
+
       '#type' => 'captcha',
       '#captcha_type' => 'captcha/Math',
     );
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 08f2fed124e5d9309872a335fac11eb70d8a51c7
     unset($form['copy']);
 
     $form['actions']['submit']['#value'] = "Envoyer";
