@@ -82,6 +82,12 @@
       </div>
     <?php endif; ?>
   </div>
+<div class=''>
+    <div class='col-xs-12 col-sm-4  col-md-12 contact-element'>
+      <?php print drupal_render( $form['osteo_captcha_element']);?>
+
+    </div>
+
 </div>
   <div class='row'>
     <div class='col-xs-8 col-sm-4 col-md-6'>

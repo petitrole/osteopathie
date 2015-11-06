@@ -37,6 +37,11 @@
     $form['message']['#maxlength'] = 128;
     $form['message']['#weight']    = 5;
 
+ $form['osteo_captcha_element'] = array(
+      '#type' => 'captcha',
+      '#captcha_type' => 'captcha/Math',
+    );
+
     unset($form['copy']);
 
     $form['actions']['submit']['#value'] = "Envoyer";
