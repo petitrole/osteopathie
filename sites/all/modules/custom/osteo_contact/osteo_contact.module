@@ -38,7 +38,6 @@
     $form['message']['#weight']    = 5;
 
     $form['osteo_captcha_element'] = array(
-
       '#type' => 'captcha',
       '#captcha_type' => 'captcha/Math',
     );

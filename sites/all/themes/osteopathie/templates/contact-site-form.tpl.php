@@ -82,11 +82,8 @@
       </div>
     <?php endif; ?>
   </div>
-<<<<<<< HEAD
-<div class=''>
-=======
+
   <div class=''>
->>>>>>> 08f2fed124e5d9309872a335fac11eb70d8a51c7
     <div class='col-xs-12 col-sm-4  col-md-12 contact-element'>
       <?php print drupal_render( $form['osteo_captcha_element']);?>
 
