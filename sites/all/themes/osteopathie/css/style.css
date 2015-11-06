@@ -7490,6 +7490,12 @@ select#edit-cabinet.form-control.form-select {
   vertical-align: top;
   width: 70%;
 }
+#contact-site-form .form-type-textfield.form-item-captcha-response.form-item.form-group {
+  text-align: left;
+}
+#contact-site-form .form-type-textfield.form-item-captcha-response.form-item.form-group input#edit-captcha-response {
+  width: 50%;
+}
 .contact-form .form-submit {
   clear: right;
   float: right;

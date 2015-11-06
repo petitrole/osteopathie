@@ -103,7 +103,6 @@
     if($form_id == 'contact_site_form'){
      $form['#theme']= 'contact-site-form';
     }
-
   }
   function osteopathie_theme($existing, $type, $theme, $path) {
     return array(
