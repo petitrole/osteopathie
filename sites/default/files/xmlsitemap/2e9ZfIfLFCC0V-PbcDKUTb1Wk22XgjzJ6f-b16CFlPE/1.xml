@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="//osteopathe-long.fr/fr/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://osteopathe-long.fr/fr</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://osteopathe-long.fr/fr/me-conna%C3%AEtre</loc><lastmod>2015-10-17T13:53Z</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+<url><loc>http://osteopathe-long.fr/fr/votre-ost%C3%A9opathe</loc><lastmod>2015-10-17T20:06Z</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+<url><loc>http://osteopathe-long.fr/fr/les-consultations-en-ost%C3%A9opathie</loc><lastmod>2015-10-17T17:43Z</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+<url><loc>http://osteopathe-long.fr/fr/lost%C3%A9opathie</loc><lastmod>2015-10-17T17:41Z</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+<url><loc>http://osteopathe-long.fr/fr/accueil</loc><lastmod>2015-10-17T17:41Z</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+</urlset>

@@ -2,8 +2,8 @@
 sites/*/settings*.php
 
 # Ignore paths that contain user-generated content.
-#sites/*/files
-#sites/*/private
+sites/*/files
+sites/*/private
 
 # IDE
 .idea

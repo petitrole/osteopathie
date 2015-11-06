@@ -2,11 +2,244 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3441061e-e8cb-43a3-8e69-1721dbe3ea9b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/content.less" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/less/content.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/osteo_contact/osteo_contact.module" afterPath="$PROJECT_DIR$/sites/all/modules/custom/osteo_contact/osteo_contact.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_1kF33EODTO5gDyEbdpAfYzMKbjG3ottD1s5np0BNI8U.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_1uXkLvmUGylKjszYag2tbpNk5KNGKiJQ0_p9t4KITLc.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_8a4ehEYk1F4Yb3WBeFzHTZGAML_PrETYU5eOfdaonxk.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_9Sb0cduuRkK5YWURuL8eesKdcwLBf67PhKtzJFEzOV8.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_9lDYlgpvX3WkJjY7g5iX1wd3CIwzic2hayMTtha6qf8.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_BR3eb_ceEn8jEAv9rAj8_gjpfC6A1BpCm8JGn5sUfnY.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_BkqC3UIgwgRIyFZqaYV_y4Vsh0L2l9yna7iNhJdl9IE.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_G8-qBIcAzonkPTT9CuydwwFsZG0cvxkIyf9e8DHEpv0.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_GV5kqarEY8w0SLgfEbxbUAG4eAAkU5Jkn_DM2ZbhOYU.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_JGPvgYQ5iFEFCVx_vC-TzIyZ_iRLgLFCS6A69IR7UQg.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_JsNrhTrv96uO_ECAcja2-aAZgozGslyfksQWxmC7MjY.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_KPX4NQ_Y3gc4N0bNarZH6Jucm4vO1J1KSI9SHEZnuMg.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Kl6_OlLQqWzLL893X3cJhN3ioo8T7E1iWpGsSy9GLv8.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_LS9OUalDR9-d_lCAvF3yUWjNU6yF8ZBm84jEPRvoyuQ.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_LhmbZkj7XNenHuEzPRo7RYxCMYS0m5fNkF5t4lSjkLg.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_NTsMCLEl696QVgiltMsZfD8nntraRBMkBVXtVIcO8x8.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_NiBTPkdW9SNk-s6DRnRTjF8hIDeSok_q_ew3l43DQJ0.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Nv0ct-zkzztuah_LbaPFF8ZkdSEk-LxBtTWMm9mN_F8.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Q7h12UtmhAlLTGARyxU8l9h_DsZzpeJbapiOnPz5k-I.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_SkTr5QsFdaqplSWgoaisTdu6JzEtFRlFzgLM_IbbS0U.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_SlHDt0B-l-yja3n6e5Yr7GVVS1L1URHON8UlYkSlBpg.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_TNGcduz9dx3ZMeFlYYqw87Os4wSuCcICPUp-QAoWcNo.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_VuvLEzCdwg-srK1j60-TgoWtmcck7zzZqQ1NigWXqaE.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_XpDVwRS_IpLzeL6fyBeVFauY16fVZ8GNdboJ72KOoZ0.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Y6Dj_WZxWChNhrONWQIS_0sEGcNBHv1d1vUcMq0jshc.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Ye4FY0FV8-q6OVW4rV_tvoi3IkZy-320fHduC7fMqrs.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_ZDWl28hdmeinIcKg-HMrN6uKD0nTMld5NlXLmm5MH2U.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_ZeoxMTGvFc_wVMjG1D5SZE5mMq9VsjXUUKW5W1qJltY.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Zgqs6mXLOfuAeOh1CYTVkWpdmpM-X2y0uK_6RvHExBw.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css__4wt1ldW81ZYKu3IjWSNTC2ONuTJKAayWroK2xGbARA.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_fxsuHfGRQqBLdBQognP4ec4aLgdMMpkNpydxm4I3s0o.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_g7RDfxiwrY0VOexRjTrLE7-YXi9jsp4C5nU2nksEzs0.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_gtnXCHMNJErLF7rozM4J6Nv_etP7cu_Z1dfkJHOui_Q.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_hdaVWSfeSwd3Rrzbo1o9D9VZ4cpreYQdpq2i1xSztsY.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_htMGQpq_NRKLpm8xwGszLwt6urGo3cJZ59zR1MZjiDw.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_iZ7nS03rudmXSAuGb4hsVtWxF-RglwgS_2tFGZBiJhE.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_ijpTUnM4QhTUQEs4TLdoY1rLmjoBPfmjt6pyNYjpLE4.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_jIvZpVfuY4FgJzZ7mYHIG4cYOyD0nJ03Bw5wiLVkAh8.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_kur6x7w_xaxmjFcpQXP01EyiOazdS-zs0JnP-n1Lco0.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_kvaqtp5WyrrHbRp04EMjxDRU1slGUfavu9v2bsvcoDU.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_lorh0jYgEILzj8j1fKGTjrB62Ck8ZLj_XTfCx53-cUQ.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_q8ANNTDKDPk8w1tcyiajwJEniskZSZ01z4nuecE2d0c.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_s2Q0WBf3GBXHGMgDK3ON6j9iACPYw8RrSkrKSsha3mQ.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_xh_dMgOlVdK2bWdChGmW-m55IamuMIkkWi1ysS13l88.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_zPXjbaLNq15896vwsk3h9TnTqgYmVKhV6pzky4OTxOI.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_zz9lzYkHs2ewWDPwLBM_VLqWwbfC0eI-QizGSQ1g56s.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_-Ijy3GnlIjwAp6cKjxIOBmvxqiHuktt9y0pUM0_yjhY.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_1AEcLVKi3GfWsiaZj4x7YI9p_LODZFDCftuRjLVBaQk.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_2H_rLnojgoNdh_7krxxJWW_ZSuo1mzwlf88w2nhTv4k.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_6ez5k3praDpNsuERPLCPZOd229BzHzeP-1ELyrzVSm0.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_7LkoSPYBs3_dMsvbGH56BI2c_Ign7wvMQwSIgPmSZV0.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_7gLg--V_Xsw60ZQ4kgseTTFPR9oGpaCAQM6MqD0YB3A.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_97YqhHsCU-g52fn9ZRd9aMi_6C3G3hpaCjpUt5M6F2g.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_9FxrmNvALo89XYg3ES3pNV7qrMUhTAiXCUbMYuJ1VOc.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_A0pGtcArqVFw3ynPBJjS45A9P-0rmBOEeEFrR3gvZOE.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_B2uv6dkjoYobfQVyuXdchgrpnnx4oM0TkP_bDVf8Qrg.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_BCExBcLSQaineOGOKc7juYt63CQ9z1pOkJ4VnEHl2cM.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_BTQO2QcamKICB26UJbzHPwGg3jyoeKAERyyge0UYu1Y.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_BZg21BmXYMrfPmuI0wQsfBEeLNLS4uxbHohyYi1tm6A.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_CC-zfeuQHcDhFtVRuKW53h30TL7j_105J32Nz8b8R38.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_DeEFYJWKlS4Ynmem32EHpQXsGUeOCe16iMcsePr7i3g.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_EGSR7hy_-w6lH5dPhckYR7Ccx2T2TXeGSdMtyYAJOUo.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_Eps3AOLIzvZGuzZbnRjdWz_1Z_70Ms4yswy0ujr2ONA.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_GE0pGOrXOAORqsnDKiCwyQQ-EQyIfyovTk-typBV5Fg.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_HTK-hCvejtlxwb0_kAJ8ux1gpR867CQxHrf1_G6UEFM.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_H_LKzMQHMgtbe-LTy1GkCyffqpIoRKLStoKscikl3C8.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_IDMCWFlyGcA16MqwiGQ-5f7qY2frrL9BqGlR9xV318A.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_IHW1CX4ibtkW3IFSh57oQQZlM_wreR5p3vzNvJ0h5sU.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_KCd8rbJYUruV1tRJnh4um34UYvyhlrSVCPR1jNko2h8.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_Kgo5VNvVZ9zGjt4IsMysX89D94ggwL_vx-uwtIqM6Wo.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_LK9PRWdetLKEh_-qSajjU2Powa-9CVWf3KPteJvojSg.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_LWLwsFQhdfY3nYc-VCZ0vgsvqqWaIhhyD0PLfI2ABno.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_L_rwnFjg40V-U7mFmCF_wWky3zxaCPHRByClWSEvhQQ.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_L_t_KN0eNhyJj4QE07d7Lq8uSxw6PF_Nn0WARHuO2tQ.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_MypBqRQjDY9AUU5T64sRAdBXBEqjQGoNH_r-loH-ipU.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_OqaTvVCYdQTTunYwfATUmcmLSBoR4hXaPoOpRM-njWc.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_PZ8m3sWfLF2K68r32oJW3_4cQ-mPfduMKvfExbjjkQE.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_RXLcCqK_EyMH02L2ujauqxT6hS1onWzZ-icgeKbaKGI.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_S5SmIm707Vzmf-abMuljodXleJlL_cP_mgdG_GdgbCs.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_Sn40jRGMY2Edg6TmPC6fTcrwfN0XqbvBfVQSM8LnuKU.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_UWQINlriydSoeSiGQxToOUdv493zEa7dpsXC1OtYlZU.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_UWahaALNNWQrS_SzX_4xoqn_0OsxlvvtiWXDaNnEmhY.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_VaTlC5jNdxR2e4HzWsuiV1jhDftON6pzITcrr9IQmXA.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_WFea7o1GoDC-6Ytd_uMUp7f6RtFouYYzVIb_RLR63hA.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_WWk5y6ac1vg_CP5GB7XiEEIhBXL8QyGJP0w8AGgd5ns.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_XDjKutFeg7TgLUtfMW8MxZIZWpl_e9B8L9Ye6grBMt8.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_YFraXo-hzmdCnaZl8M68OJKxlxdi61vINCZdnV5FQzI.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_YG82hrJHloYtiAgodMftPUgRoUSS3dqXQsi0bze1iqY.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_aAlGj0C4DI7o_m9IO_M_DJP1CK2P4W9TmeC9iZ9SSKQ.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_aK-9kMldbXVQ5xPhzfZWN6jmH3K8D4wYe9Gif1ypjR0.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_a_XWH2S1EQaU85ypMDyQGiUfzPFez1IOZKxHnhGkv3E.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_auZqmRVrMTgJLIQc4EbnYqVGQCwfUjgch4HMn9SP0O0.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_bM8NIgVNRnlElwlkaVBMMaHvfBwnoVX4yID78AOwJ28.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_cWWTZ3rKqQsuWdjW0Y3d8rMnMpJFBzWqCHY46GyeS8g.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_cyMM8LWJnjj9HKH-29oT6CebO_jNPJEicmEd7Ldra9o.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_dEWdPjyn87TLnA0cyCfI4UCNa2T4fQydmEW_j2Fp7UE.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_f_2levj09NojUcMK4S2Pkfcaxv-qHswrTzfjhUFya9c.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_h1Ipet6b73tVmoxxGuMVrsk_ZpvZ0n7XRRDbdrEMDX4.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_i01SNIGqAzzxJTvIrdepTWQJbrK9XTeTwmf7riiUpY0.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_iTIBUau-zo7veTDDNpe6N5AkjXcrTcV0gdQkhCAk8Cg.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_jc0SvLFrqAmpyWhS-Wkj0fv1cnNms8nOK8sbIgOHDyg.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_nNB9x_RXAdUJ9G4idkCvwMH1jdkqP5Bd8rTr7q6Yh44.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_oMwfaz8VD9j2UCyW21TJkLMld-EEamjbS9oW3rTFZRQ.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_pHbE2BlIIb__M-oV8OuM7gh35Nc1u8cd05EIxpXmZQU.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_qTBu9mvgYw6jbZ3HkzCKCnGsRXDtXM0Iz8YAGVjVZHA.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_sFqjQOmgzs66OfTGH_vJcAn5YuIEt4oCnrSuKbbNdME.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_shF3wDkQ0vpXhMFnb9Mpy4cZ4OmmmVLCO1SxASDjLfk.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_xwGYbGUNiGP6AiH5yQsLd_gxVlJ6zrqz9wtdgEKWW9Y.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_yaiInzAHJe1vbD1KF-ZTDkNx09SlaAMq7gcupMLmXAY.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_zi_SfFoeOe-qqVE5PBTjN_07-sJujI-zpMVKi_aboZY.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/xmlsitemap/2e9ZfIfLFCC0V-PbcDKUTb1Wk22XgjzJ6f-b16CFlPE/1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_1kF33EODTO5gDyEbdpAfYzMKbjG3ottD1s5np0BNI8U.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_1uXkLvmUGylKjszYag2tbpNk5KNGKiJQ0_p9t4KITLc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_8a4ehEYk1F4Yb3WBeFzHTZGAML_PrETYU5eOfdaonxk.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_9Sb0cduuRkK5YWURuL8eesKdcwLBf67PhKtzJFEzOV8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_9lDYlgpvX3WkJjY7g5iX1wd3CIwzic2hayMTtha6qf8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_BR3eb_ceEn8jEAv9rAj8_gjpfC6A1BpCm8JGn5sUfnY.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_BkqC3UIgwgRIyFZqaYV_y4Vsh0L2l9yna7iNhJdl9IE.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_G8-qBIcAzonkPTT9CuydwwFsZG0cvxkIyf9e8DHEpv0.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_GV5kqarEY8w0SLgfEbxbUAG4eAAkU5Jkn_DM2ZbhOYU.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_JGPvgYQ5iFEFCVx_vC-TzIyZ_iRLgLFCS6A69IR7UQg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_JsNrhTrv96uO_ECAcja2-aAZgozGslyfksQWxmC7MjY.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_KPX4NQ_Y3gc4N0bNarZH6Jucm4vO1J1KSI9SHEZnuMg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Kl6_OlLQqWzLL893X3cJhN3ioo8T7E1iWpGsSy9GLv8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_LS9OUalDR9-d_lCAvF3yUWjNU6yF8ZBm84jEPRvoyuQ.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_LhmbZkj7XNenHuEzPRo7RYxCMYS0m5fNkF5t4lSjkLg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_NTsMCLEl696QVgiltMsZfD8nntraRBMkBVXtVIcO8x8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_NiBTPkdW9SNk-s6DRnRTjF8hIDeSok_q_ew3l43DQJ0.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Nv0ct-zkzztuah_LbaPFF8ZkdSEk-LxBtTWMm9mN_F8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Q7h12UtmhAlLTGARyxU8l9h_DsZzpeJbapiOnPz5k-I.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_SkTr5QsFdaqplSWgoaisTdu6JzEtFRlFzgLM_IbbS0U.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_SlHDt0B-l-yja3n6e5Yr7GVVS1L1URHON8UlYkSlBpg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_TNGcduz9dx3ZMeFlYYqw87Os4wSuCcICPUp-QAoWcNo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_VuvLEzCdwg-srK1j60-TgoWtmcck7zzZqQ1NigWXqaE.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_XpDVwRS_IpLzeL6fyBeVFauY16fVZ8GNdboJ72KOoZ0.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Y6Dj_WZxWChNhrONWQIS_0sEGcNBHv1d1vUcMq0jshc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Ye4FY0FV8-q6OVW4rV_tvoi3IkZy-320fHduC7fMqrs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_ZDWl28hdmeinIcKg-HMrN6uKD0nTMld5NlXLmm5MH2U.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_ZeoxMTGvFc_wVMjG1D5SZE5mMq9VsjXUUKW5W1qJltY.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_Zgqs6mXLOfuAeOh1CYTVkWpdmpM-X2y0uK_6RvHExBw.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css__4wt1ldW81ZYKu3IjWSNTC2ONuTJKAayWroK2xGbARA.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_fxsuHfGRQqBLdBQognP4ec4aLgdMMpkNpydxm4I3s0o.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_g7RDfxiwrY0VOexRjTrLE7-YXi9jsp4C5nU2nksEzs0.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_gtnXCHMNJErLF7rozM4J6Nv_etP7cu_Z1dfkJHOui_Q.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_hdaVWSfeSwd3Rrzbo1o9D9VZ4cpreYQdpq2i1xSztsY.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_htMGQpq_NRKLpm8xwGszLwt6urGo3cJZ59zR1MZjiDw.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_iZ7nS03rudmXSAuGb4hsVtWxF-RglwgS_2tFGZBiJhE.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_ijpTUnM4QhTUQEs4TLdoY1rLmjoBPfmjt6pyNYjpLE4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_jIvZpVfuY4FgJzZ7mYHIG4cYOyD0nJ03Bw5wiLVkAh8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_kur6x7w_xaxmjFcpQXP01EyiOazdS-zs0JnP-n1Lco0.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_kvaqtp5WyrrHbRp04EMjxDRU1slGUfavu9v2bsvcoDU.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_lorh0jYgEILzj8j1fKGTjrB62Ck8ZLj_XTfCx53-cUQ.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_q8ANNTDKDPk8w1tcyiajwJEniskZSZ01z4nuecE2d0c.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_s2Q0WBf3GBXHGMgDK3ON6j9iACPYw8RrSkrKSsha3mQ.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_xh_dMgOlVdK2bWdChGmW-m55IamuMIkkWi1ysS13l88.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_zPXjbaLNq15896vwsk3h9TnTqgYmVKhV6pzky4OTxOI.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/css/css_zz9lzYkHs2ewWDPwLBM_VLqWwbfC0eI-QizGSQ1g56s.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/languages/fr_g5Bh1-4hwezH3KRAYtvStTs4gA9CeJleesaCUDiCUoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_-Ijy3GnlIjwAp6cKjxIOBmvxqiHuktt9y0pUM0_yjhY.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_1AEcLVKi3GfWsiaZj4x7YI9p_LODZFDCftuRjLVBaQk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_2H_rLnojgoNdh_7krxxJWW_ZSuo1mzwlf88w2nhTv4k.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_6ez5k3praDpNsuERPLCPZOd229BzHzeP-1ELyrzVSm0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_7LkoSPYBs3_dMsvbGH56BI2c_Ign7wvMQwSIgPmSZV0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_7gLg--V_Xsw60ZQ4kgseTTFPR9oGpaCAQM6MqD0YB3A.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_97YqhHsCU-g52fn9ZRd9aMi_6C3G3hpaCjpUt5M6F2g.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_9FxrmNvALo89XYg3ES3pNV7qrMUhTAiXCUbMYuJ1VOc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_A0pGtcArqVFw3ynPBJjS45A9P-0rmBOEeEFrR3gvZOE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_B2uv6dkjoYobfQVyuXdchgrpnnx4oM0TkP_bDVf8Qrg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_BCExBcLSQaineOGOKc7juYt63CQ9z1pOkJ4VnEHl2cM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_BTQO2QcamKICB26UJbzHPwGg3jyoeKAERyyge0UYu1Y.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_BZg21BmXYMrfPmuI0wQsfBEeLNLS4uxbHohyYi1tm6A.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_CC-zfeuQHcDhFtVRuKW53h30TL7j_105J32Nz8b8R38.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_DeEFYJWKlS4Ynmem32EHpQXsGUeOCe16iMcsePr7i3g.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_EGSR7hy_-w6lH5dPhckYR7Ccx2T2TXeGSdMtyYAJOUo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_Eps3AOLIzvZGuzZbnRjdWz_1Z_70Ms4yswy0ujr2ONA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_GE0pGOrXOAORqsnDKiCwyQQ-EQyIfyovTk-typBV5Fg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_HTK-hCvejtlxwb0_kAJ8ux1gpR867CQxHrf1_G6UEFM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_H_LKzMQHMgtbe-LTy1GkCyffqpIoRKLStoKscikl3C8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_IDMCWFlyGcA16MqwiGQ-5f7qY2frrL9BqGlR9xV318A.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_IHW1CX4ibtkW3IFSh57oQQZlM_wreR5p3vzNvJ0h5sU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_KCd8rbJYUruV1tRJnh4um34UYvyhlrSVCPR1jNko2h8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_Kgo5VNvVZ9zGjt4IsMysX89D94ggwL_vx-uwtIqM6Wo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_LK9PRWdetLKEh_-qSajjU2Powa-9CVWf3KPteJvojSg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_LWLwsFQhdfY3nYc-VCZ0vgsvqqWaIhhyD0PLfI2ABno.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_L_rwnFjg40V-U7mFmCF_wWky3zxaCPHRByClWSEvhQQ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_L_t_KN0eNhyJj4QE07d7Lq8uSxw6PF_Nn0WARHuO2tQ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_MypBqRQjDY9AUU5T64sRAdBXBEqjQGoNH_r-loH-ipU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_OqaTvVCYdQTTunYwfATUmcmLSBoR4hXaPoOpRM-njWc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_PZ8m3sWfLF2K68r32oJW3_4cQ-mPfduMKvfExbjjkQE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_RXLcCqK_EyMH02L2ujauqxT6hS1onWzZ-icgeKbaKGI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_S5SmIm707Vzmf-abMuljodXleJlL_cP_mgdG_GdgbCs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_Sn40jRGMY2Edg6TmPC6fTcrwfN0XqbvBfVQSM8LnuKU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_UWQINlriydSoeSiGQxToOUdv493zEa7dpsXC1OtYlZU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_UWahaALNNWQrS_SzX_4xoqn_0OsxlvvtiWXDaNnEmhY.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_VaTlC5jNdxR2e4HzWsuiV1jhDftON6pzITcrr9IQmXA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_WFea7o1GoDC-6Ytd_uMUp7f6RtFouYYzVIb_RLR63hA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_WWk5y6ac1vg_CP5GB7XiEEIhBXL8QyGJP0w8AGgd5ns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_XDjKutFeg7TgLUtfMW8MxZIZWpl_e9B8L9Ye6grBMt8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_YFraXo-hzmdCnaZl8M68OJKxlxdi61vINCZdnV5FQzI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_YG82hrJHloYtiAgodMftPUgRoUSS3dqXQsi0bze1iqY.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_aAlGj0C4DI7o_m9IO_M_DJP1CK2P4W9TmeC9iZ9SSKQ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_aK-9kMldbXVQ5xPhzfZWN6jmH3K8D4wYe9Gif1ypjR0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_a_XWH2S1EQaU85ypMDyQGiUfzPFez1IOZKxHnhGkv3E.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_auZqmRVrMTgJLIQc4EbnYqVGQCwfUjgch4HMn9SP0O0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_bM8NIgVNRnlElwlkaVBMMaHvfBwnoVX4yID78AOwJ28.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_cWWTZ3rKqQsuWdjW0Y3d8rMnMpJFBzWqCHY46GyeS8g.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_cyMM8LWJnjj9HKH-29oT6CebO_jNPJEicmEd7Ldra9o.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_dEWdPjyn87TLnA0cyCfI4UCNa2T4fQydmEW_j2Fp7UE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_f_2levj09NojUcMK4S2Pkfcaxv-qHswrTzfjhUFya9c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_h1Ipet6b73tVmoxxGuMVrsk_ZpvZ0n7XRRDbdrEMDX4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_i01SNIGqAzzxJTvIrdepTWQJbrK9XTeTwmf7riiUpY0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_iTIBUau-zo7veTDDNpe6N5AkjXcrTcV0gdQkhCAk8Cg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_jc0SvLFrqAmpyWhS-Wkj0fv1cnNms8nOK8sbIgOHDyg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_nNB9x_RXAdUJ9G4idkCvwMH1jdkqP5Bd8rTr7q6Yh44.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_oMwfaz8VD9j2UCyW21TJkLMld-EEamjbS9oW3rTFZRQ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_pHbE2BlIIb__M-oV8OuM7gh35Nc1u8cd05EIxpXmZQU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_qTBu9mvgYw6jbZ3HkzCKCnGsRXDtXM0Iz8YAGVjVZHA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_sFqjQOmgzs66OfTGH_vJcAn5YuIEt4oCnrSuKbbNdME.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_shF3wDkQ0vpXhMFnb9Mpy4cZ4OmmmVLCO1SxASDjLfk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_xwGYbGUNiGP6AiH5yQsLd_gxVlJ6zrqz9wtdgEKWW9Y.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_yaiInzAHJe1vbD1KF-ZTDkNx09SlaAMq7gcupMLmXAY.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/default/files/js/js_zi_SfFoeOe-qqVE5PBTjN_07-sJujI-zpMVKi_aboZY.js" />
+      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\.idea\osteopathie.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\sites\default\files\languages\fr_BuTgB2dmqs5t2BRLzC_BwVj4jqtoB9KChN__5lHQlYs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\web\wamp\www\osteopathie\sites\default\files\languages\fr_KNM_zUvbS02bU6BhRmbjxFs5lOvXtBfZvoy65OrI_xs_0.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page--front.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/page--front.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="osteopathie.iws" />
@@ -58,11 +291,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-site-form.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact-site-form.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5410959" vertical-offset="1225" max-vertical-offset="1768">
-              <caret line="86" column="65" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="65" />
+            <state vertical-scroll-proportion="-6.3846154" vertical-offset="1330" max-vertical-offset="1768">
+              <caret line="88" column="10" selection-start-line="84" selection-start-column="2" selection-end-line="88" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18318966" vertical-offset="0" max-vertical-offset="464">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,8 +314,8 @@
       <file leaf-file-name="osteo_contact.module" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/osteo_contact/osteo_contact.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.307692" vertical-offset="238" max-vertical-offset="2584">
-              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+            <state vertical-scroll-proportion="-7.8461537" vertical-offset="493" max-vertical-offset="2584">
+              <caret line="41" column="8" selection-start-line="40" selection-start-column="3" selection-end-line="43" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -111,7 +354,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/css/styles.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/osteopathie.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/less/footer.less" />
@@ -126,6 +368,7 @@
         <option value="$PROJECT_DIR$/sites/all/modules/custom/osteo_contact/osteo_contact.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/less/content.less" />
         <option value="$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -194,172 +437,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="osteopathie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -416,7 +493,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="842" extended-state="7" />
+    <frame x="-8" y="-8" width="1552" height="842" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -538,13 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21702127" vertical-offset="0" max-vertical-offset="705">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -845,14 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/osteo_contact/osteo_contact.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.307692" vertical-offset="238" max-vertical-offset="2584">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/less/content.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.730769" vertical-offset="1089" max-vertical-offset="2159">
@@ -861,10 +923,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/osteo_contact/osteo_contact.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="493" max-vertical-offset="2584">
+          <caret line="41" column="8" selection-start-line="40" selection-start-column="3" selection-end-line="43" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/osteopathie/templates/contact-site-form.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5410959" vertical-offset="1225" max-vertical-offset="1768">
-          <caret line="86" column="65" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="65" />
+        <state vertical-scroll-proportion="-6.3846154" vertical-offset="1330" max-vertical-offset="1768">
+          <caret line="88" column="10" selection-start-line="84" selection-start-column="2" selection-end-line="88" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18318966" vertical-offset="0" max-vertical-offset="464">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
